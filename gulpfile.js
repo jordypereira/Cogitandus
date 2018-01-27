@@ -2,6 +2,8 @@ var gulp = require('gulp');
 var pug = require('gulp-pug');
 var sass = require('gulp-sass');
 var webserver = require('gulp-webserver');
+const imagemin = require('gulp-imagemin');
+const autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('html', function(){
   return gulp.src('app/pug/*.pug')
@@ -12,6 +14,10 @@ gulp.task('html', function(){
 gulp.task('css', function(){
   return gulp.src('app/scss/*.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions'],
+      cascade: false
+    }))
     .pipe(gulp.dest('build/css'))
 });
 gulp.task('webserver', function() {
@@ -22,5 +28,10 @@ gulp.task('webserver', function() {
       open: true
     }));
 });
+gulp.task('imagemin', () =>
+    gulp.src('app/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('build/images'))
+);
 
-gulp.task('default', [ 'html', 'css', 'webserver' ]);
+gulp.task('default', [ 'html', 'css']);

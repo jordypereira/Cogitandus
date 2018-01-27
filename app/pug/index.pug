@@ -1,9 +1,8 @@
-doctype html
-html
-  include includes/head.pug
-  body
-    .container
-      include includes/nav.pug
-      h1 My Site
-      p Welcome to my super lame site.
-      include includes/foot.pug
+extends layout.pug
+  block hero
+    #hero
+      p This is the hero block
+  block content
+    h1 Cogitandus
+    p How to Continually Improve Organisations based on Operational Learning
+    include partials/home-cards.pug
