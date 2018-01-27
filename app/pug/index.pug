@@ -1,8 +1,12 @@
-extends layout.pug
-  block hero
-    #hero
-      p This is the hero block
-  block content
-    h1 Cogitandus
-    p How to Continually Improve Organisations based on Operational Learning
-    include partials/home-cards.pug
+extends includes/layout.pug
+prepend head
+  - var title = "Home"
+append hero
+  img(src="images/hero.jpeg", alt="People standing in the shade").img-fluid
+block content
+  blockquote.blockquote.text-center
+    p.mb-0
+      | I'm not interested in preserving the status quo; I want to overthrow it...
+    footer.blockquote-footer
+      | Niccolò Machiavelli  
+  include partials/home-cards.pug

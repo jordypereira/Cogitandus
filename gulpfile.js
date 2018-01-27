@@ -1,14 +1,21 @@
 var gulp = require('gulp');
 var pug = require('gulp-pug');
 var sass = require('gulp-sass');
-var webserver = require('gulp-webserver');
 const imagemin = require('gulp-imagemin');
 const autoprefixer = require('gulp-autoprefixer');
-
+const connect = require('gulp-connect');
+ 
+gulp.task('connect', function() {
+  connect.server({
+    root: 'build',
+    livereload: true
+  });
+});
 gulp.task('html', function(){
   return gulp.src('app/pug/*.pug')
     .pipe(pug())
     .pipe(gulp.dest('build/'))
+    .pipe(connect.reload())
 });
 
 gulp.task('css', function(){
@@ -19,19 +26,16 @@ gulp.task('css', function(){
       cascade: false
     }))
     .pipe(gulp.dest('build/css'))
-});
-gulp.task('webserver', function() {
-  gulp.src('app')
-    .pipe(webserver({
-      livereload: true,
-      directoryListing: true,
-      open: true
-    }));
+    .pipe(connect.reload())
 });
 gulp.task('imagemin', () =>
     gulp.src('app/images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('build/images'))
 );
-
-gulp.task('default', [ 'html', 'css']);
+gulp.task('watch', function () {
+  gulp.watch(['./app/pug/*.pug'], ['html']);
+  gulp.watch(['./app/pug/*/*.pug'], ['html']);
+  gulp.watch(['./app/scss/*.scss'], ['css']);
+});
+gulp.task('default', [ 'html', 'css','connect', 'watch']);
