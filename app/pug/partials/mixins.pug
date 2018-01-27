@@ -1,7 +1,7 @@
 mixin card(src, alt, href, title)
-  .card(style="width:18rem;")
+  .card(style="width:20rem;")
     img(class="card-img-top" src=src alt=alt)
     .card-body
-      h5.card-title 
-        a(href=href)=title
+      h5.card-title
+        a(href=href).text-dark=title
       block

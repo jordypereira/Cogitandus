@@ -4,9 +4,10 @@ prepend head
 append hero
   img(src="images/hero.jpeg", alt="People standing in the shade").img-fluid
 block content
-  blockquote.blockquote.text-center
-    p.mb-0
-      | I'm not interested in preserving the status quo; I want to overthrow it...
-    footer.blockquote-footer
-      | Niccolò Machiavelli  
+  .quote
+    blockquote.blockquote.text-center
+      p.mb-0
+        | I'm not interested in preserving the status quo; I want to overthrow it...
+      footer.blockquote-footer
+        | Niccolò Machiavelli  
   include partials/home-cards.pug
