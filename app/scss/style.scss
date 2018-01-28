@@ -30,10 +30,20 @@ body{
   @media screen and (min-width: $lg){
     margin: 40px auto;
   }
+  main{  
+    min-height: calc(100vh - 80px - 103px - 363px - 43px - 16px);
+    padding: 20px;
+    @media screen and (min-width: $lg){
+      padding: 50px;
+    }
+  }
 }
 .navbar-nav{
   flex-basis: 100%;
   justify-content: space-around;
+}
+.img-thumbnail{
+  padding: 1rem;
 }
 #footer{
   display: flex;
