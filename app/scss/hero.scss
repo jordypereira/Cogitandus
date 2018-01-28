@@ -35,10 +35,12 @@
     }
   }
   .site-description{
-		font-size: 13px;
+    font-size: 13px;
+    text-align: center;
 		font-size: 1.3rem;
     line-height: 1.4;
     @media screen and (min-width: $md){
+      text-align: left;
       flex-basis: 100%;
       order: 5;
     }
