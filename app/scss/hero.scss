@@ -1,23 +1,33 @@
 @import "variables.scss";
 .hero-block{
-  padding: 50px;
   color: $blue;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+  @media screen and (min-width: $md){
+    padding: 50px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  > * {
+    align-self: center;
+  }
   img{
-    order: 1;
+    @media screen and (min-width: $md){
+      order: 1;
+    }
   }
   .site-title{
-    order: 2;
-		font-size: 20px;
-		font-size: 2rem;
-    padding-top: 30px;
+		font-size: 30px;
+		font-size: 3rem;
     line-height: 1.4;
     text-shadow: 2px 2px #e6e6e6;
     font-weight: bold;
     @media screen and (min-width: $md){
-      font-size: 30px;
-      font-size: 3rem;
+      font-size: 40px;
+      padding-top: 30px;
+      font-size: 4rem;
+      flex-basis: 100%;
+      order: 4;
     }
     @media screen and (min-width: $lg){
       font-size: 50px;
@@ -25,15 +35,30 @@
     }
   }
   .site-description{
-    order: 3;
 		font-size: 13px;
 		font-size: 1.3rem;
-		line-height: 1.4;
+    line-height: 1.4;
+    @media screen and (min-width: $md){
+      flex-basis: 100%;
+      order: 5;
+    }
   }
   .social-icons{
-    order: 4;
+    padding-top: 10px;
+    @media screen and (min-width: $md){
+      order: 3;
+    }
   }
   form{
-    order: 5;
+    @media screen and (min-width: $md){
+      order: 2;
+    }
+    input{  
+      font-size: 1.6rem;
+    }
+    button{
+      font-size: 1.6rem;
+      cursor: pointer;
+    }
   }
 }

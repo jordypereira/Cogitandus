@@ -1,15 +1,22 @@
 @import "variables.scss";
 
 .cards{
-  padding: 50px 0.50rem 0 0.50rem;
+  padding: 20px 0.50rem 0 0.50rem;    
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  @media screen and (min-width: $md){
+    padding: 50px 0.50rem 0 0.50rem;    
+  }
   .card{
-    width: 300px;
-    padding-bottom: 50px;
+    width: 85vw;
+    padding-bottom: 5px;
     margin: 0 0.75rem;
     border: none;
+    @media screen and (min-width: $md){
+      width: 300px;      
+      padding-bottom: 50px;
+    }
     .card-img-top{
       border-top-left-radius: 0;
       border-top-right-radius: 0;

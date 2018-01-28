@@ -31,7 +31,9 @@ body{
     margin: 40px auto;
   }
 }
-
+.navbar-nav{
+  justify-content: space-between;
+}
 #footer{
   display: flex;
   justify-content: space-between;
