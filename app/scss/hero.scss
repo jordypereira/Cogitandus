@@ -1,0 +1,39 @@
+@import "variables.scss";
+.hero-block{
+  padding: 50px;
+  color: $blue;
+  display: flex;
+  flex-flow: row wrap;
+  img{
+    order: 1;
+  }
+  .site-title{
+    order: 2;
+		font-size: 20px;
+		font-size: 2rem;
+    padding-top: 30px;
+    line-height: 1.4;
+    text-shadow: 2px 2px #e6e6e6;
+    font-weight: bold;
+    @media screen and (min-width: $md){
+      font-size: 30px;
+      font-size: 3rem;
+    }
+    @media screen and (min-width: $lg){
+      font-size: 50px;
+      font-size: 5rem;
+    }
+  }
+  .site-description{
+    order: 3;
+		font-size: 13px;
+		font-size: 1.3rem;
+		line-height: 1.4;
+  }
+  .social-icons{
+    order: 4;
+  }
+  form{
+    order: 5;
+  }
+}

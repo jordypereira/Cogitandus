@@ -37,5 +37,6 @@ gulp.task('watch', function () {
   gulp.watch(['./app/pug/*.pug'], ['html']);
   gulp.watch(['./app/pug/*/*.pug'], ['html']);
   gulp.watch(['./app/scss/*.scss'], ['css']);
+  gulp.watch(['./app/scss/*/*.scss'], ['css']);
 });
 gulp.task('default', [ 'html', 'css','connect', 'watch']);
