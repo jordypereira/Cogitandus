@@ -4,6 +4,8 @@ var sass = require('gulp-sass');
 const imagemin = require('gulp-imagemin');
 const autoprefixer = require('gulp-autoprefixer');
 const connect = require('gulp-connect');
+const uglify = require('gulp-uglify');
+const concat = require('gulp-concat');
  
 gulp.task('connect', function() {
   connect.server({
@@ -19,7 +21,7 @@ gulp.task('html', function(){
 });
 
 gulp.task('css', function(){
-  return gulp.src('app/scss/*.scss')
+  return gulp.src('app/scss/style.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
@@ -33,10 +35,19 @@ gulp.task('imagemin', () =>
         .pipe(imagemin())
         .pipe(gulp.dest('build/images'))
 );
+gulp.task('js', () =>
+  gulp.src('app/js/**/*')
+  .pipe(concat('main.js'))
+  .pipe(uglify())
+  .pipe(gulp.dest('build/js'))
+);
+
 gulp.task('watch', function () {
   gulp.watch(['./app/pug/*.pug'], ['html']);
   gulp.watch(['./app/pug/*/*.pug'], ['html']);
   gulp.watch(['./app/scss/*.scss'], ['css']);
   gulp.watch(['./app/scss/*/*.scss'], ['css']);
+  gulp.watch(['./app/js/**/*'], ['js']);
 });
-gulp.task('default', [ 'html', 'css','connect', 'watch']);
+
+gulp.task('default', [ 'html', 'css', 'js', 'connect', 'watch']);
