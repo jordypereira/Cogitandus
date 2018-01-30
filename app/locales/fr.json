@@ -1,7 +1,11 @@
 {
+  "metatags":{
+    "description": "Comment obtenir une vraie Am&#233;lioration Continue dans des Organisations en utilisant l'Apprentissage Op&#233;rationnelle",
+    "keywords": "am&eacute;liorer, am&eacute;lioration, changement, proc&eacute;dure, apprendre, apprentissage, atelier, workshop, formation, coaching, &eacute;valuation, audit, syst&egrave;me de management, syst&egrave;me, projet, incident, accident, analyse, s&eacute;curit&eacute;, qualit&eacute;, environnement, performance humaine, iso, ohsas, vca"
+  },
   "hero": {
     "title": "Cogitandus",
-    "description": "How to Continually Improve Organisations based on Operational Learning"
+    "description": "Comment obtenir une vraie Am&#233;lioration Continue dans des Organisations en utilisant l'Apprentissage Op&#233;rationnelle"
   },
   "nav":{
     "services": "Nos Services",
@@ -9,105 +13,105 @@
     "training": "Formation",
     "coaching": "Coaching",
     "assessments": "Evaluations",
-    "managementsystems": "Systèmes de Management",
-    "improvementprojects": "Amélioration des Affaires",
-    "incidentanalysis": "Analyse d’incidents"
+    "managementsystems": "Syst&#232;mes de Management",
+    "improvementprojects": "Projets d'Am&#233;lioration",
+    "incidentanalysis": "Analyse d'incidents"
   },
   "cards": {
     "text": {
-      "training": "Pendant de nombreuses années, nous avons essayé de rendre les travailleurs « plus prudents » et tenté qu’ils « accordent plus d’attention » à ce qu'ils font afin de ne commettre aucune erreur. Il semble que nous avons exploré cette piste au maximum. Simplement demander aux collaborateurs de faire plus attention ne se traduit pas par des collaborateurs « plus prudents » ...",
-      "coaching": "Chaque mission ou tâche dans votre organisation se déroule-t-elle exactement comme prévu ? Avez-vous déjà essayé d'apprendre d’un incident qui ne s’est jamais produit ? Si la réponse à ces questions est « non », alors une Équipe d'Apprentissage est ce qu’il vous faut pour effectuer un véritable changement !",
-      "assessments": "« Se tenir au plan » signifie que chaque tâche peut être effectuée parfaitement comme prévu. Éviter les erreurs est la norme pour atteindre la perfection, mais les collaborateurs sont des personnes qui sont incapables d'atteindre le résultat parfait.",
-      "managementsystems": "Pour de nombreuses entreprises, obtenir des certificats ISO est ‘un must’. Sans certificats valides, pas d’affaires… Outre que répondre à cette exigence, l'obtention et le maintien de tels certificats restent sans valeur ajoutée. La philosophie du système de management développé ne vit pas sur le terrain et frustre la direction et le personnel. Quelques semaines avant chaque audit, c'est toujours « tout le monde sur le pont » et le certificat n'est rien de plus qu'un cadre sur le mur dans le hall d'entrée ...",
-      "improvementprojects": "De nombreux systèmes, processus ou procédures décrivent uniquement comment le travail est planifié. Ils supposent que tous les risques sont permanents. Rien n'est moins vrai ... Par conséquent, les problèmes de qualité continuent à persister et les accidents à se produire. Simplement demander aux collaborateurs de faire plus attention à ne pas faire d'erreurs ne se traduit pas par une meilleure qualité. Tout comme demander aux collaborateurs de soyer plus prudent n'empêchera pas un accident.",
-      "incidentanalysis": "De façon classique, la seule chose qui se passe quand quelque chose tourne mal, c’est trouver la partie « défectueuse » (lire « l’homme ») et commencer un cycle de « nommer, blâmer, embarrasser et recycler » ... Vous ne devriez donc pas être surpris que certains incidents mineurs et la plupart des quasi-accidents ne sont pas signalés. La notification est fonction de la confiance qu’ont vos collaborateurs dans votre organisation. Les collaborateurs qui ont peur d'être punis ne prennent pas le risque ..."
+      "training": "Pendant de nombreuses ann&#233;es, nous avons essay&#233; de rendre les travailleurs 'plus prudents' et tent&#233; qu'ils 'accordent plus d'attention' &#224; ce qu'ils font afin de ne commettre aucune erreur. Il semble que nous avons explor&#233; cette piste au maximum. Simplement demander aux collaborateurs de faire plus attention ne se traduit pas par des collaborateurs 'plus prudents' ...",
+      "coaching": "Chaque mission ou t&#226;che dans votre organisation se d&#233;roule-t-elle exactement comme pr&#233;vu ? Avez-vous d&#233;j&#224; essay&#233; d'apprendre d'un incident qui ne s'est jamais produit ? Si la r&#233;ponse &#224; ces questions est 'non', alors une &#201;quipe d'Apprentissage est ce qu'il vous faut pour effectuer un v&#233;ritable changement !",
+      "assessments": "'Se tenir au plan' signifie que chaque t&#226;che peut &#234;tre effectu&#233;e parfaitement comme pr&#233;vu. &#201;viter les erreurs est la norme pour atteindre la perfection, mais les collaborateurs sont des personnes qui sont incapables d'atteindre le r&#233;sultat parfait.",
+      "managementsystems": "Pour de nombreuses entreprises, obtenir des certificats ISO est 'un must'. Sans certificats valides, pas d'affaires… Outre que r&#233;pondre &#224; cette exigence, l'obtention et le maintien de tels certificats restent sans valeur ajout&#233;e. La philosophie du syst&#232;me de management d&#233;velopp&#233; ne vit pas sur le terrain et frustre la direction et le personnel. Quelques semaines avant chaque audit, c'est toujours 'tout le monde sur le pont' et le certificat n'est rien de plus qu'un cadre sur le mur dans le hall d'entr&#233;e ...",
+      "improvementprojects": "De nombreux syst&#232;mes, processus ou proc&#233;dures d&#233;crivent uniquement comment le travail est planifi&#233;. Ils supposent que tous les risques sont permanents. Rien n'est moins vrai ... Par cons&#233;quent, les probl&#232;mes de qualit&#233; continuent &#224; persister et les accidents &#224; se produire. Simplement demander aux collaborateurs de faire plus attention &#224; ne pas faire d'erreurs ne se traduit pas par une meilleure qualit&#233;. Tout comme demander aux collaborateurs de soyer plus prudent n'emp&#234;chera pas un accident.",
+      "incidentanalysis": "De fa&#231;on classique, la seule chose qui se passe quand quelque chose tourne mal, c'est trouver la partie 'd&#233;fectueuse' (lire 'l'homme') et commencer un cycle de 'nommer, bl&#226;mer, embarrasser et recycler' ... Vous ne devriez donc pas &#234;tre surpris que certains incidents mineurs et la plupart des quasi-accidents ne sont pas signal&#233;s. La notification est fonction de la confiance qu'ont vos collaborateurs dans votre organisation. Les collaborateurs qui ont peur d'&#234;tre punis ne prennent pas le risque ..."
     }
   },
   "pages": {
     "home": {
       "content": {
-        "quote": "Je ne suis pas intéressé à maintenir le statu quo ; Je veux le renverser."
+        "quote": "Je ne suis pas int&#233;ress&#233; &#224; maintenir le statu quo ; Je veux le renverser."
       }
     },
     "training": {
       "content": {
         "h2": "Performance Humaine & Organisationnelle",
-        "p1": "Pendant de nombreuses années, nous avons essayé de rendre les travailleurs « plus prudents » et tenté qu’ils « accordent plus d’attention » à ce qu'ils font afin de ne commettre aucune erreur. Il semble que nous avons exploré cette piste au maximum. Simplement demander aux collaborateurs de faire plus attention ne se traduit pas par des collaborateurs « plus prudents » ...",
-        "p2": "Nous vivons dans un monde où les gens sont faillibles et les erreurs « existent ». La façon dont la direction et les cadres répondent à ces erreurs est extrêmement importante ...",
-        "p3": "Dans cette formation, votre direction et ligne hiérarchique apprennent comment une personne performe et comment le système d'organisation influence le comportement individuel de vos collaborateurs.",
-        "p4": "Ils vont apprendre à regarder aux erreurs et aux échecs d’un point de vue que les collaborateurs dans votre organisation sont la solution au problème plutôt que le problème qui doit être résolu. Cela les aidera à mettre en place des systèmes organisationnels (environnement de travail, processus, procédures, etc.) qui sont beaucoup plus tolérants aux erreurs. Pas la survenance d'erreurs, mais la limitation des conséquences est ce qui compte.",
-        "p5": "Cette formation d'une journée peut également être offerte sous la forme d'un atelier de deux jours, en combinant les sujets sur la Performance Humaine & Organisationnelle avec l'apprentissage à obtenir une amélioration continue qui fonctionne réellement en utilisant des ",
-        "a": "Équipes d'Apprentissage",
-        "p6": ". Ou faites-nous savoir que vous préférez commencer par une introduction de deux heures aux principes de la Performance Humaine & Organisationnelle."
+        "p1": "Pendant de nombreuses ann&#233;es, nous avons essay&#233; de rendre les travailleurs 'plus prudents' et tent&#233; qu'ils 'accordent plus d'attention' &#224; ce qu'ils font afin de ne commettre aucune erreur. Il semble que nous avons explor&#233; cette piste au maximum. Simplement demander aux collaborateurs de faire plus attention ne se traduit pas par des collaborateurs 'plus prudents' ...",
+        "p2": "Nous vivons dans un monde où les gens sont faillibles et les erreurs 'existent'. La fa&#231;on dont la direction et les cadres r&#233;pondent &#224; ces erreurs est extr&#234;mement importante ...",
+        "p3": "Dans cette formation, votre direction et ligne hi&#233;rarchique apprennent comment une personne performe et comment le syst&#232;me d'organisation influence le comportement individuel de vos collaborateurs.",
+        "p4": "Ils vont apprendre &#224; regarder aux erreurs et aux &#233;checs d'un point de vue que les collaborateurs dans votre organisation sont la solution au probl&#232;me plut&#244;t que le probl&#232;me qui doit &#234;tre r&#233;solu. Cela les aidera &#224; mettre en place des syst&#232;mes organisationnels (environnement de travail, processus, proc&#233;dures, etc.) qui sont beaucoup plus tol&#233;rants aux erreurs. Pas la survenance d'erreurs, mais la limitation des cons&#233;quences est ce qui compte.",
+        "p5": "Cette formation d'une journ&#233;e peut &#233;galement &#234;tre offerte sous la forme d'un atelier de deux jours, en combinant les sujets sur la Performance Humaine & Organisationnelle avec l'apprentissage &#224; obtenir une am&#233;lioration continue qui fonctionne r&#233;ellement en utilisant des ",
+        "a": "&#201;quipes d'Apprentissage",
+        "p6": ". Ou faites-nous savoir que vous pr&#233;f&#233;rez commencer par une introduction de deux heures aux principes de la Performance Humaine & Organisationnelle."
       }
     },
     "coaching": {
       "content": {
-        "h2": "Amélioration Continu par des Équipes d'Apprentissage",
-        "p1": "Chaque mission ou tâche dans votre organisation se déroule-t-elle exactement comme prévu ? Avez-vous déjà essayé d'apprendre d’un incident qui ne s’est jamais produit ? Si la réponse à ces questions est « non », alors une Équipe d'Apprentissage est ce qu’il vous faut pour effectuer un véritable changement !",
-        "p2": "Dans une Équipe d'Apprentissage, notre rôle est de motiver et de coacher un groupe ad hoc de 5 à 7 collaborateurs opérationnels qui seront rassemblés pour répondre à une question : « quelque chose s’est passé avec succès - quoi notre organisation pourrait-elle en apprendre ? ».",
-        "p3": "Ne vous inquiétez pas, ce n’est pas un interrogatoire. Nous ne sommes pas intéressés par « qui » a fait ce qui s'est passé ou par « pourquoi » l'événement s'est produit. Nous nous concentrons entièrement sur « comment » l'événement a eu lieu. Être disposé à comprendre exactement la situation des collaborateurs et à découvrir comment le travail est effectué dans des circonstances normales permettra d'identifier des façons pour améliorer les processus de travail.",
-        "p4": "Si vous voyez les collaborateurs comme la solution plus tôt que comme le problème et par vous concentrer à aider les collaborateurs à surmonter les difficultés et à réussir, vous instaurez de la confiance. Le résultat final est un moyen de communication solide au sein de l'organisation et la capacité de trouver des idées novatrices pour résoudre les problèmes. Parvenir à telles solutions, qui puissent être mise en œuvre autant que possible par l'équipe elle-même, ne serait autrement jamais possible."
+        "h2": "Am&#233;lioration Continu par des &#201;quipes d'Apprentissage",
+        "p1": "Chaque mission ou t&#226;che dans votre organisation se d&#233;roule-t-elle exactement comme pr&#233;vu ? Avez-vous d&#233;j&#224; essay&#233; d'apprendre d'un incident qui ne s'est jamais produit ? Si la r&#233;ponse &#224; ces questions est 'non', alors une &#201;quipe d'Apprentissage est ce qu'il vous faut pour effectuer un v&#233;ritable changement !",
+        "p2": "Dans une &#201;quipe d'Apprentissage, notre r&#244;le est de motiver et de coacher un groupe ad hoc de 5 &#224; 7 collaborateurs op&#233;rationnels qui seront rassembl&#233;s pour r&#233;pondre &#224; une question : 'quelque chose s'est pass&#233; avec succ&#232;s - quoi notre organisation pourrait-elle en apprendre ?'.",
+        "p3": "Ne vous inqui&#233;tez pas, ce n'est pas un interrogatoire. Nous ne sommes pas int&#233;ress&#233;s par 'qui' a fait ce qui s'est pass&#233; ou par 'pourquoi' l'&#233;v&#233;nement s'est produit. Nous nous concentrons enti&#232;rement sur 'comment' l'&#233;v&#233;nement a eu lieu. &#202;tre dispos&#233; &#224; comprendre exactement la situation des collaborateurs et &#224; d&#233;couvrir comment le travail est effectu&#233; dans des circonstances normales permettra d'identifier des fa&#231;ons pour am&#233;liorer les processus de travail.",
+        "p4": "Si vous voyez les collaborateurs comme la solution plus t&#244;t que comme le probl&#232;me et par vous concentrer &#224; aider les collaborateurs &#224; surmonter les difficult&#233;s et &#224; r&#233;ussir, vous instaurez de la confiance. Le r&#233;sultat final est un moyen de communication solide au sein de l'organisation et la capacit&#233; de trouver des id&#233;es novatrices pour r&#233;soudre les probl&#232;mes. Parvenir &#224; telles solutions, qui puissent &#234;tre mise en œuvre autant que possible par l'&#233;quipe elle-m&#234;me, ne serait autrement jamais possible."
       }
     },
     "assessments": {
       "content": {
-        "h2": "Audits de Conformité & de Due Diligence",
-        "p1": "Audits de Conformité",
-        "p2": "La plupart des systèmes, processus et procédures décrivent uniquement comment le travail est planifié ...",
-        "p3": "« Se tenir au plan » signifie que chaque tâche peut être effectuée parfaitement comme prévu. Éviter les erreurs est la norme pour atteindre la perfection, mais les collaborateurs sont des personnes qui sont incapables d'atteindre le résultat parfait. Seulement au début, tout fonctionne comme prévu, si même cela est vrai …",
-        "p4": "Dans notre approche, afin de comprendre l'histoire derrière la non-conformité, nous examinons l'ensemble du contexte. Il y a plusieurs raisons pour lesquelles quelque chose à un moment donné a conduit à une non-conformité. En écoutant les gens qui font le travail et en les engageant à trouver des solutions qui se relèvent de préférence dans leur sphère d'influence, nous obtenons leur adhésion. Laisser apprendre votre organisation et rendre votre système plus résilient, c’est ainsi que fonctionne une réelle amélioration continue !",
+        "h2": "Audits de Conformit&#233; & de Due Diligence",
+        "p1": "Audits de Conformit&#233;",
+        "p2": "La plupart des syst&#232;mes, processus et proc&#233;dures d&#233;crivent uniquement comment le travail est planifi&#233; ...",
+        "p3": "'Se tenir au plan' signifie que chaque t&#226;che peut &#234;tre effectu&#233;e parfaitement comme pr&#233;vu. &#201;viter les erreurs est la norme pour atteindre la perfection, mais les collaborateurs sont des personnes qui sont incapables d'atteindre le r&#233;sultat parfait. Seulement au d&#233;but, tout fonctionne comme pr&#233;vu, si m&#234;me cela est vrai …",
+        "p4": "Dans notre approche, afin de comprendre l'histoire derri&#232;re la non-conformit&#233;, nous examinons l'ensemble du contexte. Il y a plusieurs raisons pour lesquelles quelque chose &#224; un moment donn&#233; a conduit &#224; une non-conformit&#233;. En &#233;coutant les gens qui font le travail et en les engageant &#224; trouver des solutions qui se rel&#232;vent de pr&#233;f&#233;rence dans leur sph&#232;re d'influence, nous obtenons leur adh&#233;sion. Laisser apprendre votre organisation et rendre votre syst&#232;me plus r&#233;silient, c'est ainsi que fonctionne une r&#233;elle am&#233;lioration continue !",
         "p5": "Audits de Due Diligence",
-        "p6": "Dans le cas d'acquisitions et de transactions de vente (internationales), il est important de faire preuve de diligence raisonnable pour cartographier les risques et les coûts associés à ces transactions.",
-        "p7": "Nous offrons nos connaissances et notre expérience pour vérifier la conformité et la mise en œuvre des exigences légales et autres. Grâce à une analyse indépendante et neutre, basée sur des visites sur place, des revues de documents et des entretiens, nous examinons la performance qualité, sécurité et environnementale de l'entreprise qui sera reprise. Nos conclusions sont répertoriées dans un rapport lisible."
+        "p6": "Dans le cas d'acquisitions et de transactions de vente (internationales), il est important de faire preuve de diligence raisonnable pour cartographier les risques et les coûts associ&#233;s &#224; ces transactions.",
+        "p7": "Nous offrons nos connaissances et notre exp&#233;rience pour v&#233;rifier la conformit&#233; et la mise en œuvre des exigences l&#233;gales et autres. Gr&#226;ce &#224; une analyse ind&#233;pendante et neutre, bas&#233;e sur des visites sur place, des revues de documents et des entretiens, nous examinons la performance qualit&#233;, s&#233;curit&#233; et environnementale de l'entreprise qui sera reprise. Nos conclusions sont r&#233;pertori&#233;es dans un rapport lisible."
       }
     },
     "managementsystems": {
       "content": {
-        "h2": "Développement & Implémentation",
-        "p1": "De nombreuses entreprises ont un ou plusieurs certificats ISO. La possession de tels certificats est dans de nombreux cas une exigence du client. Sans certificat valide, l'entreprise n'est pas admissible à la pré-qualification en tant que fournisseur approuvé ou ne peut pas soumettre de devis pour un projet ou une attribution du marché.",
-        "p2": "Outre que répondre à cette exigence du client, l'obtention et le maintien de tels certificats impliquent de nombreux efforts sans valeur ajoutée pour de nombreuses entreprises.",
-        "p3": "Le système de management développé est un tigre de papier, sa philosophie ne vit pas sur le terrain et frustre la direction et le personnel. Quelques semaines avant chaque audit, c'est toujours « tout le monde sur le pont » et le certificat n'est rien de plus qu'un cadre sur le mur dans le hall d'entrée ...",
-        "p4": "Nous vous guidons et vous assisterons dans le développement et la mise en place d'un système de management réellement utile à votre organisation. Un système facile à comprendre et à appliquer.",
-        "p5": "Dans ce processus, nous nous concentrons au maximum sur la façon dont les tâches sont réellement exécutées, plutôt que sur la manière dont elles sont planifiées. À cette fin, nous utilisons la connaissance et l'expérience de vos collaborateurs impliqués.",
-        "p6": "En mettant en place un système de management rallié par vos collaborateurs, la qualité et la sécurité deviennent des valeurs dans votre organisation au lieu des priorités ... Et l'organisation a-t-elle réussi l'audit ? Alors ce ne sera plus une fin en soi, mais une conséquence logique de tous les efforts déployés."
+        "h2": "D&#233;veloppement & Impl&#233;mentation",
+        "p1": "De nombreuses entreprises ont un ou plusieurs certificats ISO. La possession de tels certificats est dans de nombreux cas une exigence du client. Sans certificat valide, l'entreprise n'est pas admissible &#224; la pr&#233;-qualification en tant que fournisseur approuv&#233; ou ne peut pas soumettre de devis pour un projet ou une attribution du march&#233;.",
+        "p2": "Outre que r&#233;pondre &#224; cette exigence du client, l'obtention et le maintien de tels certificats impliquent de nombreux efforts sans valeur ajout&#233;e pour de nombreuses entreprises.",
+        "p3": "Le syst&#232;me de management d&#233;velopp&#233; est un tigre de papier, sa philosophie ne vit pas sur le terrain et frustre la direction et le personnel. Quelques semaines avant chaque audit, c'est toujours 'tout le monde sur le pont' et le certificat n'est rien de plus qu'un cadre sur le mur dans le hall d'entr&#233;e ...",
+        "p4": "Nous vous guidons et vous assisterons dans le d&#233;veloppement et la mise en place d'un syst&#232;me de management r&#233;ellement utile &#224; votre organisation. Un syst&#232;me facile &#224; comprendre et &#224; appliquer.",
+        "p5": "Dans ce processus, nous nous concentrons au maximum sur la fa&#231;on dont les t&#226;ches sont r&#233;ellement ex&#233;cut&#233;es, plut&#244;t que sur la mani&#232;re dont elles sont planifi&#233;es. &#192; cette fin, nous utilisons la connaissance et l'exp&#233;rience de vos collaborateurs impliqu&#233;s.",
+        "p6": "En mettant en place un syst&#232;me de management ralli&#233; par vos collaborateurs, la qualit&#233; et la s&#233;curit&#233; deviennent des valeurs dans votre organisation au lieu des priorit&#233;s ... Et l'organisation a-t-elle r&#233;ussi l'audit ? Alors ce ne sera plus une fin en soi, mais une cons&#233;quence logique de tous les efforts d&#233;ploy&#233;s."
       }
     },
     "improvementprojects": {
       "content": {
-        "h2": "Projets relatifs à Améliorer la Sécurité et la Qualité",
-        "p1": "De nombreux systèmes, processus ou procédures décrivent uniquement comment le travail est planifié. Ils supposent que tous les risques sont permanents. Rien n'est moins vrai ... Par conséquent, les problèmes de qualité continuent à persister et les accidents à se produire.",
-        "p2": "Simplement demander aux collaborateurs de faire plus attention à ne pas faire d'erreurs ne se traduit pas par une meilleure qualité. Tout comme demander aux collaborateurs de soyer plus prudent n'empêchera pas un accident.",
-        "p3": "Se concentrer uniquement sur vos collaborateurs pour obtenir une meilleure qualité ou moins d'incidents ne fonctionnera pas. Tout comme uniquement faire confiance à votre système non plus. Ce qui compte, c'est l'interaction entre votre système et vos collaborateurs. Chaque procédure est incomplète et vos collaborateurs complètent le système. Ils doivent constamment trouver l’équilibre entre faire le travail efficace et accomplir leur tâche.",
-        "p4": "Nous observons le travail en cours, comment le travail est réalisé dans la réalité. Nous passons en mode d’apprentissage en posant les bonnes questions au bon public. Cela nous permet de détecter où votre système échoue.",
-        "p5": "En comprenant le contexte des collaborateurs directement impliqués dans les problèmes de qualité ou de sécurité, nous arrivons à de simples améliorations qui peuvent être réalisées par l'équipe elle-même. De cette façon, nous pouvons améliorer la performance et la résilience de votre système de management."
+        "h2": "Projets relatifs &#224; Am&#233;liorer la S&#233;curit&#233; et la Qualit&#233;",
+        "p1": "De nombreux syst&#232;mes, processus ou proc&#233;dures d&#233;crivent uniquement comment le travail est planifi&#233;. Ils supposent que tous les risques sont permanents. Rien n'est moins vrai ... Par cons&#233;quent, les probl&#232;mes de qualit&#233; continuent &#224; persister et les accidents &#224; se produire.",
+        "p2": "Simplement demander aux collaborateurs de faire plus attention &#224; ne pas faire d'erreurs ne se traduit pas par une meilleure qualit&#233;. Tout comme demander aux collaborateurs de soyer plus prudent n'emp&#234;chera pas un accident.",
+        "p3": "Se concentrer uniquement sur vos collaborateurs pour obtenir une meilleure qualit&#233; ou moins d'incidents ne fonctionnera pas. Tout comme uniquement faire confiance &#224; votre syst&#232;me non plus. Ce qui compte, c'est l'interaction entre votre syst&#232;me et vos collaborateurs. Chaque proc&#233;dure est incompl&#232;te et vos collaborateurs compl&#232;tent le syst&#232;me. Ils doivent constamment trouver l'&#233;quilibre entre faire le travail efficace et accomplir leur t&#226;che.",
+        "p4": "Nous observons le travail en cours, comment le travail est r&#233;alis&#233; dans la r&#233;alit&#233;. Nous passons en mode d'apprentissage en posant les bonnes questions au bon public. Cela nous permet de d&#233;tecter où votre syst&#232;me &#233;choue.",
+        "p5": "En comprenant le contexte des collaborateurs directement impliqu&#233;s dans les probl&#232;mes de qualit&#233; ou de s&#233;curit&#233;, nous arrivons &#224; de simples am&#233;liorations qui peuvent &#234;tre r&#233;alis&#233;es par l'&#233;quipe elle-m&#234;me. De cette fa&#231;on, nous pouvons am&#233;liorer la performance et la r&#233;silience de votre syst&#232;me de management."
       }
     },
     "incidentanalysis": {
       "content": {
-        "h2": "Ajouter une expertise indépendante à votre équipe",
-        "quote": "Des échecs se produisent lorsque les ressources ne répondent pas aux exigences.",
-        "p1": "De façon classique, la seule chose qui se passe quand quelque chose tourne mal, c’est trouver la partie « défectueuse » (lire « l’homme ») et commencer un cycle de « nommer, blâmer, embarrasser et recycler » ... Vous ne devriez donc pas être surpris que certains incidents mineurs et la plupart des quasi-accidents ne sont pas signalés. La notification est fonction de la confiance qu’ont vos collaborateurs dans votre organisation. Les collaborateurs qui ont peur d'être punis ne prennent pas le risque ...",
-        "p2": "À bien des égards, il est utile de faire appel à une expertise externe pour analyser les événements indésirables, comme la disponibilité d’une autre paire d'yeux et d’oreilles, ou la présence d'une partie neutre pour ne citer que quelques-uns.",
-        "p3": "Lorsque vous nous demandez de soutenir votre organisation lors de l'analyse d'un incident, nous exploiterons activement l'histoire de « comment » tout s'est passé. Nous allons découvrir ce qui s'est « mal » passé, mais ce qui s'est « bien » passé.",
-        "p4": "Dans notre approche atypique, nous ne recherchons pas la cause fondamentale. L'échec n'est jamais une séquence linéaire d'événements, donc il n'y est presque jamais une cause fondamentale. Au lieu de décomposer l'incident dans des parties consécutives, nous cartographions les circonstances au moment de l'incident. Nous ne regardons pas les parties individuelles de l'incident, mais la relation entre ces parties.                                      ",
-        "p5": "Dans de nombreuses analyses d'incidents, il suffit de décrire les circonstances dans lesquelles le travail se déroule dans des circonstances normales pour expliquer comment l'incident s'est produit. Avec cette approche, non seulement nous trouverons les problèmes qui ont contribué à l'incident, mais nous serons également en mesure d'identifier d'autres domaines où des améliorations sont possibles afin que l'enquête sur l'incident devienne réactive et proactive en même temps.",
-        "p6": "L'évaluation d'un travail mis en œuvre avec succès est également une excellente occasion pour apprendre. Cela peut se produire dans un climat beaucoup plus positif. Cette opportunité est souvent inutilisée par une organisation. Consultez notre section sur ",
-        "a": "Équipes d'Apprentissage",
+        "h2": "Ajouter une expertise ind&#233;pendante &#224; votre &#233;quipe",
+        "quote": "Des &#233;checs se produisent lorsque les ressources ne r&#233;pondent pas aux exigences.",
+        "p1": "De fa&#231;on classique, la seule chose qui se passe quand quelque chose tourne mal, c'est trouver la partie 'd&#233;fectueuse' (lire 'l'homme') et commencer un cycle de 'nommer, bl&#226;mer, embarrasser et recycler' ... Vous ne devriez donc pas &#234;tre surpris que certains incidents mineurs et la plupart des quasi-accidents ne sont pas signal&#233;s. La notification est fonction de la confiance qu'ont vos collaborateurs dans votre organisation. Les collaborateurs qui ont peur d'&#234;tre punis ne prennent pas le risque ...",
+        "p2": "&#192; bien des &#233;gards, il est utile de faire appel &#224; une expertise externe pour analyser les &#233;v&#233;nements ind&#233;sirables, comme la disponibilit&#233; d'une autre paire d'yeux et d'oreilles, ou la pr&#233;sence d'une partie neutre pour ne citer que quelques-uns.",
+        "p3": "Lorsque vous nous demandez de soutenir votre organisation lors de l'analyse d'un incident, nous exploiterons activement l'histoire de 'comment' tout s'est pass&#233;. Nous allons d&#233;couvrir ce qui s'est 'mal' pass&#233;, mais ce qui s'est 'bien' pass&#233;.",
+        "p4": "Dans notre approche atypique, nous ne recherchons pas la cause fondamentale. L'&#233;chec n'est jamais une s&#233;quence lin&#233;aire d'&#233;v&#233;nements, donc il n'y est presque jamais une cause fondamentale. Au lieu de d&#233;composer l'incident dans des parties cons&#233;cutives, nous cartographions les circonstances au moment de l'incident. Nous ne regardons pas les parties individuelles de l'incident, mais la relation entre ces parties.                                      ",
+        "p5": "Dans de nombreuses analyses d'incidents, il suffit de d&#233;crire les circonstances dans lesquelles le travail se d&#233;roule dans des circonstances normales pour expliquer comment l'incident s'est produit. Avec cette approche, non seulement nous trouverons les probl&#232;mes qui ont contribu&#233; &#224; l'incident, mais nous serons &#233;galement en mesure d'identifier d'autres domaines où des am&#233;liorations sont possibles afin que l'enqu&#234;te sur l'incident devienne r&#233;active et proactive en m&#234;me temps.",
+        "p6": "L'&#233;valuation d'un travail mis en œuvre avec succ&#232;s est &#233;galement une excellente occasion pour apprendre. Cela peut se produire dans un climat beaucoup plus positif. Cette opportunit&#233; est souvent inutilis&#233;e par une organisation. Consultez notre section sur ",
+        "a": "&#201;quipes d'Apprentissage",
         "p7": " pour apprendre comment nous pouvons vous assister."
       }
     },
     "bio": {
       "content": {
-        "p1": "Werner DE VOS est titulaire d'un Master en ingénierie mécanique et électrotechnique de la Vrije Universiteit Brussel.",
-        "p2": "Avant de fonder COGITANDUS, il a acquis plus de 25 ans d'expérience dans le domaine de la sécurité, de la qualité et de l'environnement en tant que responsable Groupe pour des sociétés qui opèrent à l’échelle mondiale dans divers secteurs industriels.",
-        "p3": "De la définition d'une stratégie à l'accompagnement des équipes internationales pour sa mise en œuvre dans l'organisation à la mise en place et à l'audit des systèmes de management ISO / OHSAS & VCA et à la réalisation de l'amélioration continue."
+        "p1": "Werner DE VOS est titulaire d'un Master en ing&#233;nierie m&#233;canique et &#233;lectrotechnique de la Vrije Universiteit Brussel.",
+        "p2": "Avant de fonder COGITANDUS, il a acquis plus de 25 ans d'exp&#233;rience dans le domaine de la s&#233;curit&#233;, de la qualit&#233; et de l'environnement en tant que responsable Groupe pour des soci&#233;t&#233;s qui op&#232;rent &#224; l'&#233;chelle mondiale dans divers secteurs industriels.",
+        "p3": "De la d&#233;finition d'une strat&#233;gie &#224; l'accompagnement des &#233;quipes internationales pour sa mise en œuvre dans l'organisation &#224; la mise en place et &#224; l'audit des syst&#232;mes de management ISO / OHSAS & VCA et &#224; la r&#233;alisation de l'am&#233;lioration continue."
       }
     },
     "contact": {
       "content": {
-        "p1": "Incité par notre approche ? Intéressé à en savoir plus ? Prêt à faire un superbe apprentissage ?",
-        "p2": "Contactez-nous et embarquez pour un voyage qui amène à l’amélioration durable de la sécurité et / ou de la qualité de votre organisation.",
+        "p1": "Incit&#233; par notre approche ? Int&#233;ress&#233; &#224; en savoir plus ? Pr&#234;t &#224; faire un superbe apprentissage ?",
+        "p2": "Contactez-nous et embarquez pour un voyage qui am&#232;ne &#224; l'am&#233;lioration durable de la s&#233;curit&#233; et / ou de la qualit&#233; de votre organisation.",
         "country": "Belgique"
       }
     }

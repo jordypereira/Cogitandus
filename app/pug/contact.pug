@@ -5,13 +5,13 @@ prepend head
 block content
   main
     h1 Contact
-    p #{$i18n.pages.contact.content.p1}
-    p #{$i18n.pages.contact.content.p2}
+    p !{$i18n.pages.contact.content.p1}
+    p !{$i18n.pages.contact.content.p2}
     br
     br
     h2 COGITANDUS
     p Werner De Vos
-    p Heidestraat 77, 2570 Duffel, #{$i18n.pages.contact.content.country}
+    p Heidestraat 77, 2570 Duffel, !{$i18n.pages.contact.content.country}
     p +32 478 997 546
     p 
       a(href="mailto:info@cogitandus.com") info@cogitandus.com

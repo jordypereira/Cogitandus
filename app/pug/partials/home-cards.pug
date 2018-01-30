@@ -1,16 +1,16 @@
 include mixin-cards.pug
 -var locale =  $localeName;
 .cards
-      +card("../images/training.jpg", "Man spreading his arms in the sunrise", "/" + locale + "/training.html", "Training")
-        p.card-text #{$i18n.cards.text.training}
-      +card("../images/coaching.jpg", "5 hands doing a fistbump", "/" + locale + "/coaching.html", "Coaching")
-        p.card-text #{$i18n.cards.text.coaching}
-      +card("../images/assessments.jpg", "glasses upside down on a table", "/" + locale + "/assessments.html", "Assessments")
-        p.card-text #{$i18n.cards.text.assessments}
-      +card("../images/management-systems.jpg", "The controls of a plane", "/" + locale + "/management-systems.html", "Management Systems")
-        p.card-text #{$i18n.cards.text.managementsystems}
-      +card("../images/improvement-projects.jpg", "The inside of a tube", "/" + locale + "/improvement-projects.html", "Improvement Projects")
-        p.card-text #{$i18n.cards.text.improvementprojects}
-      +card("../images/incident-analysis.jpg", "post-its on a wall", "/" + locale + "/incident-analysis.html", "Incident Analysis")
-        p.card-text #{$i18n.cards.text.incidentanalysis}
+      +card("../images/training.jpg", "Man spreading his arms in the sunrise", "/" + locale + "/training.html", $i18n.nav.training)
+        p.card-text !{$i18n.cards.text.training}
+      +card("../images/coaching.jpg", "5 hands doing a fistbump", "/" + locale + "/coaching.html", $i18n.nav.coaching)
+        p.card-text !{$i18n.cards.text.coaching}
+      +card("../images/assessments.jpg", "glasses upside down on a table", "/" + locale + "/assessments.html", $i18n.nav.assessments)
+        p.card-text !{$i18n.cards.text.assessments}
+      +card("../images/management-systems.jpg", "The controls of a plane", "/" + locale + "/management-systems.html", $i18n.nav.managementsystems)
+        p.card-text !{$i18n.cards.text.managementsystems}
+      +card("../images/improvement-projects.jpg", "The inside of a tube", "/" + locale + "/improvement-projects.html", $i18n.nav.improvementprojects)
+        p.card-text !{$i18n.cards.text.improvementprojects}
+      +card("../images/incident-analysis.jpg", "post-its on a wall", "/" + locale + "/incident-analysis.html", $i18n.nav.incidentanalysis)
+        p.card-text !{$i18n.cards.text.incidentanalysis}
 

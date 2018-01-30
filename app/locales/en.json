@@ -1,4 +1,8 @@
 {
+  "metatags":{
+    "description": "How to Continually Improve Organisations based on Operational Learning",
+    "keywords": "improve, improvement, change, procedure, learning, workshop, training, coaching, assessment, audit, management system, system, project, incident, accident, analysis, safety, quality, environment, human performance, iso, ohsas, vca"
+  },
   "hero": {
     "title": "Cogitandus",
     "description": "How to Continually Improve Organisations based on Operational Learning"
@@ -15,12 +19,12 @@
   },
   "cards": {
     "text": {
-      "training": "For many years, we have tried to make workers \"care more\" and \"pay more attention\" to what they are doing so they won\"t make mistakes. It seems that we have run that course about as far as it will go. Simply asking workers to be more careful does not equate to \"more careful\" workers…",
-      "coaching": "Does every job or task in your organization runs exactly as planned? Did you ever try to learn from the incident that never happened? If the answer to these questions is \"no\", then a Learning Team is what you are looking for to make real change happen!",
-      "assessments": "Most systems, processes and procedures solely describe how work is planned… \"Work the plan\" is saying it is always a perfect job. Avoiding failure is setting the standard to reach perfection, but workers are humans and these are not able to achieve the perfect result...",
-      "managementsystems": "For many companies, obtaining ISO-certificates is a must. Without these certificates, no business... Apart from complying, getting certified has no real added value. The management system philosophy is not lived and creates frustration with management and staff. Some weeks before every audit it is \"all hands on deck\" and the certificate is nothing more than a frame on the wall at the entrance…",
+      "training": "For many years, we have tried to make workers 'care more' and 'pay more attention' to what they are doing so they won't make mistakes. It seems that we have run that course about as far as it will go. Simply asking workers to be more careful does not equate to 'more careful' workers…",
+      "coaching": "Does every job or task in your organization runs exactly as planned? Did you ever try to learn from the incident that never happened? If the answer to these questions is 'no', then a Learning Team is what you are looking for to make real change happen!",
+      "assessments": "Most systems, processes and procedures solely describe how work is planned… 'Work the plan' is saying it is always a perfect job. Avoiding failure is setting the standard to reach perfection, but workers are humans and these are not able to achieve the perfect result...",
+      "managementsystems": "For many companies, obtaining ISO-certificates is a must. Without these certificates, no business... Apart from complying, getting certified has no real added value. The management system philosophy is not lived and creates frustration with management and staff. Some weeks before every audit it is 'all hands on deck' and the certificate is nothing more than a frame on the wall at the entrance…",
       "improvementprojects": "A lot of systems, processes or procedures solely describe how work is planned. They assume that all risks are permanent. Nothing could be further from the truth… That is why quality defects continue to exist and accidents to happen. Asking employees to be more careful not to make mistakes does not lead to better quality. Just like asking employees to pay more attention will not avoid having an accident...",
-      "incidentanalysis": "Traditionally, when something goes wrong, all that is necessary is to find the \"defective\" part (read \"the human\") and begin a cycle of name, blame, shame and retrain… By doing so, you shouldn\"t be surprised that some smaller incidents and many near misses don\"t get reported. Reporting is a function of how much your workers trust your organisation. Employees who fear to get punished will not stick their neck out..."
+      "incidentanalysis": "Traditionally, when something goes wrong, all that is necessary is to find the 'defective' part (read 'the human') and begin a cycle of name, blame, shame and retrain… By doing so, you shouldn't be surprised that some smaller incidents and many near misses don't get reported. Reporting is a function of how much your workers trust your organisation. Employees who fear to get punished will not stick their neck out..."
     }
   },
   "pages": {
@@ -32,8 +36,8 @@
     "training": {
       "content": {
         "h2": "Human & Organisational Performance",
-        "p1": "For many years we have tried to make workers \"care more\" and \"pay more attention\" to what they are doing so they won\"t make mistakes. It seems that we have run that course about as far as it will go. Simply asking workers to be more careful does not equate to \"more careful\" workers…",
-        "p2": "We live in a world where error \"is\" and people are failable. The way management responds to these failures matters…",
+        "p1": "For many years we have tried to make workers 'care more' and 'pay more attention' to what they are doing so they won't make mistakes. It seems that we have run that course about as far as it will go. Simply asking workers to be more careful does not equate to 'more careful' workers…",
+        "p2": "We live in a world where error 'is' and people are failable. The way management responds to these failures matters…",
         "p3": "In this training your (line) management learns how humans perform and how the organisational system influences the individual behavior of your employees.",
         "p4": "They will learn to look at error and failure from the perspective that the people in your organisation are the solution to the problem, rather than the problem to solve. This will help them to build organizational systems (working environment, processes, procedures, …) that are far more error tolerant. Not the occurrence of mistakes, but the limitation of the consequences is what matters.",
         "p5": "This 1-day training can also be offered as a 2-day workshop in which topics on Human Performance will be combined with learning about how to put in place continual Improvement that really works by making use of ",
@@ -44,9 +48,9 @@
     "coaching": {
       "content": {
         "h2": "Continual Improvement via Learning Teams",
-        "p1": "Does every job or task in your organization runs exactly as planned?  Did you ever try to learn from the incident that never happened? If the answer to these questions is \"no\", then a Learning Team is what you are looking for to make real change happen!",
-        "p2": "In a Learning Team our role is to coach and engage an ad-hoc group of 5-7 workers, brought together to answer one question: \"something (un)successful has just happened – what should our organisation learn from this?\".",
-        "p3": "No worries, it won\"t be an investigation as we are not interested in \"who\" did what or in \"why\" the event happened. We fully concentrate on \"how\" the event transpired. Willing to fully understand the workers\" context and finding out how normal work happens, will result in identifying ways to improve the work processes.",
+        "p1": "Does every job or task in your organization runs exactly as planned?  Did you ever try to learn from the incident that never happened? If the answer to these questions is 'no', then a Learning Team is what you are looking for to make real change happen!",
+        "p2": "In a Learning Team our role is to coach and engage an ad-hoc group of 5-7 workers, brought together to answer one question: 'something (un)successful has just happened – what should our organisation learn from this?'.",
+        "p3": "No worries, it won't be an investigation as we are not interested in 'who' did what or in 'why' the event happened. We fully concentrate on 'how' the event transpired. Willing to fully understand the workers' context and finding out how normal work happens, will result in identifying ways to improve the work processes.",
         "p4": "If you see workers as solutions rather than problems, and by focusing on helping workers overcome problems and be successful, you build trust. The end result is a strong communication channel within the organization and the ability to come up with innovative ideas to solve problems. In other circumstances, they would never have come up with such solutions that can be carried out as much as possible by the team."
       }
     },
@@ -55,8 +59,8 @@
         "h2": "Compliance & Due Diligence Audits",
         "p1": "Compliance audits",
         "p2": "Most systems, processes and procedures solely describe how work is planned…",
-        "p3": "\"Work the plan\" is saying it is always a perfect job. Avoiding failure is setting the standard to reach perfection, but workers are humans and these are not able to achieve the perfect result. Only at start, everything works as thought, if even that is true…",
-        "p4": "In our approach to understand the story behind noncompliance, we look at the full context. There are multiple reasons why at that moment something triggered a noncompliance. By listening to the people doing the work and involving them in finding solutions that are preferably in their sphere of control, we get their buy-in. Making your organisation learn and your system more resilient, that\"s how real continual improvement works!",
+        "p3": "'Work the plan' is saying it is always a perfect job. Avoiding failure is setting the standard to reach perfection, but workers are humans and these are not able to achieve the perfect result. Only at start, everything works as thought, if even that is true…",
+        "p4": "In our approach to understand the story behind noncompliance, we look at the full context. There are multiple reasons why at that moment something triggered a noncompliance. By listening to the people doing the work and involving them in finding solutions that are preferably in their sphere of control, we get their buy-in. Making your organisation learn and your system more resilient, that's how real continual improvement works!",
         "p5": "Due diligence audits",
         "p6": "In case of (international) acquisitions and sales transactions a due diligence is important to map the risks and costs associated with these transactions.",
         "p7": "We offer our knowledge and expertise to check the compliance with and implementation of legal and other requirements. By means of an independent and neutral analysis, based on site visits, document checks and interviews, we look into the quality, safety and environmental performance of the company that is to be acquired.  Our findings will be made available in a crystal-clear report."
@@ -67,7 +71,7 @@
         "h2": "Development & Implementation",
         "p1": "For many companies, obtaining ISO-certificates is a must. In most cases this is required by their customers. Without these certificates, the company will not be able to prequalify for doing some future business or it will not be allowed to tender for new projects or orders.",
         "p2": "Apart from complying with this customer requirement, getting certified and maintaining the certificates later on, is often associated with lots of efforts without real added value.",
-        "p3": "The management system that is created is nothing more than a paper tiger, its philosophy is not lived on the shop floor and creates frustration with management and staff. Some weeks before every audit it is \"all hands on deck\" and the certificates is nothing more than a frame on the wall at the entrance…",
+        "p3": "The management system that is created is nothing more than a paper tiger, its philosophy is not lived on the shop floor and creates frustration with management and staff. Some weeks before every audit it is 'all hands on deck' and the certificates is nothing more than a frame on the wall at the entrance…",
         "p4": "We are happy to guide and assist you in developing and implementing a management system that is of real benefit to your organization. A system that is simple to understand and easy to apply.",
         "p5": "In this process we focus maximally on how work is done, rather than on how it is planned. To get there, we make use of the knowledge and expertise of your engaged employees.",
         "p6": "By letting us create a management system with the buy-in of your employees, quality and safety will become values in your organisation, not priorities… And passing the audits? That will no longer be an end in itself, but a natural consequence of all efforts made."
@@ -78,19 +82,19 @@
         "h2": "Projects related to Improving Safety & Quality",
         "p1": "A lot of systems, processes or procedures solely describe how work is planned. They assume that all risks are permanent. Nothing could be further from the truth… That is why quality defects continue to exist and accidents to happen.",
         "p2": "Asking employees to be more careful not to make mistakes does not lead to better quality. Just like asking employees to pay more attention will not avoid having an accident.",
-        "p3": "Focusing solely on your employees to achieve better quality or less incidents won\"t work. Focusing solely on your system won\"t work either. What matters is the interaction between your system and your employees. Every procedure is incomplete and your workers complete the system. Employees balance constantly between working efficiently and bringing their task to a good end.",
+        "p3": "Focusing solely on your employees to achieve better quality or less incidents won't work. Focusing solely on your system won't work either. What matters is the interaction between your system and your employees. Every procedure is incomplete and your workers complete the system. Employees balance constantly between working efficiently and bringing their task to a good end.",
         "p4": "We observe work in action, how work is done in reality. We go in learning mode by asking the right questions to the right audience. This enables us to detect potential system failures.",
-        "p5": "By understanding the context of the workers who are directly involved in the quality or safety issue, we come to simple improvements that are mainly in their sphere of control. That\"s how we can successfully improve the output and resilience of your system."
+        "p5": "By understanding the context of the workers who are directly involved in the quality or safety issue, we come to simple improvements that are mainly in their sphere of control. That's how we can successfully improve the output and resilience of your system."
       }
     },
     "incidentanalysis": {
       "content": {
         "h2": "Adding Independent Expertise to your team",
         "quote": "Failures arise when the resources don't suffice to meet the requirements.",
-        "p1": "Traditionally, when something goes wrong, all that is necessary is to find the \"defective\" part (read \"the human\") and begin a cycle of name, blame, shame and retrain…  By doing so, you shouldn\"t be surprised that some smaller incidents and many near misses don\"t get reported. Reporting is a function of how much your workers trust your organisation. Employees who fear to get punished will not stick their neck out…",
+        "p1": "Traditionally, when something goes wrong, all that is necessary is to find the 'defective' part (read 'the human') and begin a cycle of name, blame, shame and retrain…  By doing so, you shouldn't be surprised that some smaller incidents and many near misses don't get reported. Reporting is a function of how much your workers trust your organisation. Employees who fear to get punished will not stick their neck out…",
         "p2": "In many aspects, it is beneficial to call in some external expertise when looking into failure, like the availability of a fresh pair of eyes and ears and the presence of an unbiased party to name a few.",
-        "p3": "When asking us to assist your organization in analyzing an incident, we will actively look for the story of \"how\" the failure happened. We will find out what went \"wrong\" but also what went \"right\".",
-        "p4": "In our atypical approach, we don\"t look for the root cause. As failure is never a linear sequence of events, so there is almost never a root cause. Instead of linearly deconstructing the incident, we construct the incident context. We won\"t look at the individual pieces of the incident, but at the relationship between those pieces.",
+        "p3": "When asking us to assist your organization in analyzing an incident, we will actively look for the story of 'how' the failure happened. We will find out what went 'wrong' but also what went 'right'.",
+        "p4": "In our atypical approach, we don't look for the root cause. As failure is never a linear sequence of events, so there is almost never a root cause. Instead of linearly deconstructing the incident, we construct the incident context. We won't look at the individual pieces of the incident, but at the relationship between those pieces.",
         "p5": "In many incident investigations, simply describing what the conditions are in which normal work happens is sufficient to explain how the incident happened. We will not only find issues that contributed to the incident with this approach, we will also identify other areas where improvements can be made, so the incident investigation becomes reactive and proactive at the same time.",
         "p6": "Also post-job reviews after operational success are an excellent opportunity to learn from. This can happen in a much more positive climate. That chance is often missed or wasted by an organization. Check our section on ",
         "a": "Learning Teams",
@@ -99,7 +103,7 @@
     },
     "bio": {
       "content": {
-        "p1": "Werner DE VOS holds a Master\"s degree in Mechanical & Electrotechnical Engineering from the Vrije Universiteit Brussel.",
+        "p1": "Werner DE VOS holds a Master's degree in Mechanical & Electrotechnical Engineering from the Vrije Universiteit Brussel.",
         "p2": "Before founding COGITANDUS, he gained more than 25 years of experience in the field of safety, quality and environment as corporate manager for globally active companies in different industries.",
         "p3": "From defining a strategy over coaching international teams in implementing it in the organisation to the implementation and audit of ISO/OHSAS & VCA management systems and the realisation of continual improvement."
       }
