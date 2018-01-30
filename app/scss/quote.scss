@@ -1,10 +1,13 @@
 @import "variables.scss";
-.quote{
+%quote-shared{
   background-color: #fafafa;
   border-bottom: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
   margin-top: 20px;
-  padding: 20px 20px 0 20px;
+  padding: 20px 50px 0 50px;
+}
+.quote{
+  @extend %quote-shared;
   blockquote{
     p{
       font-size: 20px;
@@ -38,7 +41,37 @@
         font-size: 2rem;	
       }
     }
-    margin-top: 50px;
-    padding: 20px 50px 0 50px;
+  }
+}
+.quote-small{
+  @extend %quote-shared;
+  margin-bottom: 20px;
+  blockquote{
+    p{
+      font-size: 1.4rem;
+    }
+    footer{
+      font-size: 1rem;
+    }
+  }
+  @media screen and (min-width: $md){
+    blockquote{
+      p{
+        font-size: 1.6rem;
+      }
+      footer{
+        font-size: 1.2rem;
+      }
+    }
+  }
+  @media screen and (min-width: $lg){
+    blockquote{
+      p{
+        font-size: 2rem;
+      }
+      footer{
+        font-size: 1.6rem;	
+      }
+    }
   }
 }

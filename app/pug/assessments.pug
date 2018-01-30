@@ -1,24 +1,24 @@
 extends includes/layout.pug
 include partials/mixin-page.pug
 prepend head
-  - var title = "Assessments"
+  - var title = $i18n.nav.assessments
 block content
-  +page("Assessments","images/assessments.jpg","glasses upside down on a table","Photo by Nick Hillier on Unsplash")
+  +page($i18n.nav.assessments,"../images/assessments.jpg","glasses upside down on a table","Photo by Nick Hillier on Unsplash")
     h2
       strong
-        em Compliance & Due Diligence Audits
+        em #{$i18n.pages.assessments.content.h2}
     p
-      strong Compliance audits
-    p Most systems, processes and procedures solely describe how work is planned…
+      strong #{$i18n.pages.assessments.content.p1}
+    p #{$i18n.pages.assessments.content.p2}
     p
-      | ‘Work the plan’ is saying it is always a perfect job. Avoiding failure is setting the standard to reach perfection, but workers are humans and these are not able to achieve the perfect result. Only at start, everything works as thought, if even that is true…
+      | #{$i18n.pages.assessments.content.p3}
     p
-      | In our approach to understand the story behind noncompliance, we look at the full context. There are multiple reasons why at that moment something triggered a noncompliance. By listening to the people doing the work and involving them in finding solutions that are preferably in their sphere of control, we get their buy-in. Making your organisation learn and your system more resilient, that’s how real continual improvement works!
+      | #{$i18n.pages.assessments.content.p4}
     p
-      strong Due diligence audits
+      strong #{$i18n.pages.assessments.content.p5}
     p
-      | In case of (international) acquisitions and sales transactions a due diligence is important to map the risks and costs associated with these transactions.
+      | #{$i18n.pages.assessments.content.p6}
     p
-      | We offer our knowledge and expertise to check the compliance with and implementation of legal and other requirements. By means of an independent and neutral analysis, based on site visits, document checks and interviews, we look into the quality, safety and environmental performance of the company that is to be acquired.  Our findings will be made available in a crystal-clear report.
+      | #{$i18n.pages.assessments.content.p7}
     br
     hr

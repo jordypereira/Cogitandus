@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "title": "Cogitandus",
+    "description": "How to Continually Improve Organisations based on Operational Learning"
+  },
+  "nav":{
+    "services": "Onze Diensten",
+    "home": "Home",
+    "training": "Opleiding",
+    "coaching": "Coaching",
+    "assessments": "Assessments",
+    "managementsystems": "Managementsystemen",
+    "improvementprojects": "Verbeterprojecten",
+    "incidentanalysis": "Incidentanalyse"
+  },
+  "cards": {
+    "text": {
+      "training": "Gedurende vele jaren hebben we gepoogd om werknemers “meer zorg te laten dragen voor” en \"meer aandacht te laten schenken aan\" wat ze doen, opdat ze geen fouten zouden maken. Het lijkt erop dat we dit pad zo lang als mogelijk bewandeld hebben. Het eenvoudigweg aan werknemers vragen om voorzichtiger te zijn, vertaalt zich niet in “meer voorzichtige” werknemers ...",
+      "coaching": "Verloopt elke opdracht of taak in uw organisatie precies zoals gepland? Heb je ooit geprobeerd om te leren van het incident dat nooit gebeurd is? Als het antwoord op deze vragen 'neen' is, dan is een Learning Team wat u zoekt om échte verandering te laten plaatsvinden!",
+      "assessments": "'Werk volgens plan' wil zeggen dat elke taak perfect kan verlopen zoals ze gepland is. Fouten vermijden is de norm stellen om perfectie te bereiken, maar medewerkers zijn mensen en die zijn niet in staat om het perfecte resultaat te behalen.",
+      "managementsystems": "Voor heel wat bedrijven is het behalen van ISO-certificaten een \"must\". Zonder deze certificaten geen samenwerking… Afgezien van het voldoen aan deze klanteis, heeft de certificatie geen meerwaarde. De filosofie van het managementsysteem leeft niet op de werkvloer en wekt frustratie op bij directie en personeel. Enkele weken voor elke audit is het telkens weer “alle hens aan dek” en het certificaat is niet meer dan een kader aan de muur in de inkomhal…",
+      "improvementprojects": "Veel systemen, processen of procedures beschrijven alleen hoe werk gepland is. Ze gaan ervan uit dat alle risico's permanent zijn. Niets is minder waar... Daarom blijven kwaliteitsproblemen bestaan en ongelukken gebeuren. Medewerkers vragen om aandachtiger te zijn en geen fouten te maken, leidt niet tot een betere kwaliteit. Net zoals werknemers vragen om meer voorzichtig te zijn niet zal vermijden dat er een ongeval gebeurt…",
+      "incidentanalysis": "Het enige wat klassiek gebeurt wanneer er iets misgaat, is het \"defecte\" deel (lees \"de mens\") vinden en een cyclus starten van \"name, blame, shame and retrain\"... Hierdoor zou het je niet mogen verbazen dat sommige kleinere incidenten en de meeste bijna-ongevallen niet worden gemeld. Rapportering is functie van de hoeveelheid vertrouwen die uw werknemers in uw organisatie hebben. Medewerkers die bang zijn om gestraft te worden steken hun nek niet uit ..."
+    }
+  },
+  "pages": {
+    "home": {
+      "content": {
+        "quote": "Ik ben niet geïnteresseerd in het behoud van de status-quo; ik wil hem omverwerpen."
+      }
+    },
+    "training": {
+      "content": {
+        "h2": "Human & Organisational Performance",
+        "p1": "Gedurende vele jaren hebben we gepoogd om werknemers “meer zorg te laten dragen voor” en \"meer aandacht te laten schenken aan\" wat ze doen, opdat ze geen fouten zouden maken. Het lijkt erop dat we dit pad zo lang als mogelijk bewandeld hebben. Het eenvoudigweg aan werknemers vragen om voorzichtiger te zijn, vertaalt zich niet in “meer voorzichtige” werknemers ...",
+        "p2": "We leven in een wereld waarin mensen feilbaar zijn en fouten \"bestaan\". De manier waarop directie en leidinggevenden op deze fouten reageren is enorm belangrijk...",
+        "p3": "In deze opleiding leert uw (lijn)management hoe een mens presteert en hoe het organisatiesysteem het individuele gedrag van uw medewerkers beïnvloedt.",
+        "p4": "Ze zullen leren kijken naar fouten en falen vanuit het perspectief dat de medewerkers in uw organisatie de oplossing zijn voor het probleem in plaats van het probleem dat moet worden opgelost. Dit zal hen helpen om organisatorische systemen (werkomgeving, processen, procedures, ...) op te zetten die veel toleranter zijn voor fouten. Niet het voorkomen van fouten, maar het beperken van de gevolgen is waar het om draait.",
+        "p5": "Deze eendaagse opleiding kan ook worden aangeboden als een tweedaagse workshop, waarin onderwerpen over Human & Organisational Performance worden gecombineerd met het leren bekomen van continue verbetering die écht werkt door gebruik te maken van ",
+        "a": "Learning Teams",
+        "p6": ". Of laat ons weten dat u verkiest om eerst te starten met een twee uur durende introductie tot de principes van Human & Organisational Performance."
+      }
+    },
+    "coaching": {
+      "content": {
+        "h2": "Continue Verbetering via Learning Teams",
+        "p1": "Verloopt elke opdracht of taak in uw organisatie precies zoals gepland? Heb je ooit geprobeerd om te leren van het incident dat nooit gebeurd is? Als het antwoord op deze vragen 'neen' is, dan is een Learning Team wat u zoekt om échte verandering te laten plaatsvinden!",
+        "p2": "In een Learning Team is het onze rol om een ad-hoc groep van 5 à 7 operationele medewerkers te motiveren en te coachen, die bijeengebracht worden om één vraag te beantwoorden: \"er is iets (on)succesvols gebeurd - wat moet onze organisatie hiervan leren?\". ",
+        "p3": "Maak u geen zorgen, het is geen ondervraging, want we zijn niet geïnteresseerd in \"wie\" wat gedaan heeft of in \"waarom\" de gebeurtenis plaatsvond. We concentreren ons volledig op “hoe” de gebeurtenis heeft plaatsgevonden. Bereid zijn om de situatie van de werknemers volledig te begrijpen en erachter te komen hoe het werk in normale omstandigheden gebeurt, zal resulteren in het identificeren van manieren om de werkprocessen te verbeteren.",
+        "p4": "Als je werknemers eerder als de oplossing dan als het probleem ziet, en door je te richten op het helpen van werknemers om problemen te overwinnen en succesvol te zijn, bouw je vertrouwen op. Het eindresultaat is een sterk communicatiekanaal binnen de organisatie en het vermogen om met innovatieve ideeën voor de dag te komen om problemen op te lossen. Tot dergelijke oplossingen, die zoveel mogelijk door het team zelf kunnen worden uitgevoerd, zouden ze anders nooit gekomen zijn."
+      }
+    },
+    "assessments": {
+      "content": {
+        "h2": "Compliance & Due Diligence Audits",
+        "p1": "Compliance audits",
+        "p2": "De meeste systemen, processen en procedures beschrijven alleen hoe werk gepland is…",
+        "p3": "'Werk volgens plan' wil zeggen dat elke taak perfect kan verlopen zoals ze gepland is. Fouten vermijden is de norm stellen om perfectie te bereiken, maar medewerkers zijn mensen en die zijn niet in staat om het perfecte resultaat te behalen. Enkel in het begin werkt alles zoals verhoopt, als zelfs dat al waar is ... ",
+        "p4": "In onze benadering om het verhaal achter niet-naleving te begrijpen, bekijken we de volledige context. Er zijn meerdere redenen waarom iets op een bepaald moment tot een niet-naleving heeft geleid. Door te luisteren naar de mensen die het werk doen en hen te betrekken bij het vinden van oplossingen die bij voorkeur binnen hun invloedssfeer liggen, bekomen we hun buy-in. Uw organisatie laten leren en uw systeem veerkrachtiger maken, zo werkt échte continue verbetering!",
+        "p5": "Due diligence audits",
+        "p6": "In geval van (internationale) acquisities en verkooptransacties is een due diligence van belang om de risico's en kosten in verband met die transacties in kaart te brengen.",
+        "p7": "Wij bieden onze kennis en ervaring aan om de naleving en implementatie van wettelijke en andere vereisten te controleren. Door middel van een onafhankelijke en neutrale analyse, op basis van bezoeken ter plaatse, documentcontroles en interviews, bekijken we de kwaliteits-, veiligheids- en milieuprestaties van het bedrijf dat gaat worden overgenomen. Onze bevindingen worden opgelijst in een leesbaar rapport."
+      }
+    },
+    "managementsystems": {
+      "content": {
+        "h2": "Ontwikkeling & Implementatie",
+        "p1": "Heel wat bedrijven hebben één of meerdere ISO-certificaten. Het bezitten van dergelijke certificaten is in vele gevallen een klanteneis. Zonder geldig certificaat komt het bedrijf niet in aanmerking voor prekwalificatie als goedgekeurd leverancier of mag het geen offerte indienen voor een project of opdracht van de klant.",
+        "p2": "Afgezien van het voldoen aan deze klantvereiste, is het behalen en behouden van dergelijke certificaten voor veel bedrijven iets dat gepaard gaat met heel wat inspanningen zonder meerwaarde.",
+        "p3": "Het ontwikkelde managementsysteem is een papieren tijger, de filosofie ervan leeft niet op de werkvloer en wekt frustratie op bij directie en personeel. Enkele weken voor elke audit is het telkens weer “alle hens aan dek” en het certificaat is niet meer dan een kader aan de muur in de inkomhal…",
+        "p4": "Wij begeleiden en helpen u graag bij het ontwikkelen en implementeren van een managementsysteem dat écht nuttig is voor uw organisatie. Een systeem dat eenvoudig te begrijpen valt en eenvoudig toe te passen is.",
+        "p5": "In dit proces richten we ons maximaal op hoe de taken werkelijk uitgevoerd worden, in plaats van hoe ze gepland zijn. Om daartoe te komen, maken we gebruik van de kennis en ervaring van uw betrokken medewerkers.",
+        "p6": "Door ons een managementsysteem te laten opzetten met buy-in van uw medewerkers, worden kwaliteit en veiligheid waarden in uw organisatie in plaats van prioriteiten ... En is de organisatie geslaagd voor de audit? Dan zal dat zal niet langer een doel op zich zijn, maar een logisch gevolg van alle geleverde inspanningen."
+      }
+    },
+    "improvementprojects": {
+      "content": {
+        "h2": "Projecten gerelateerd met Verbeteren van Veiligheid & Kwaliteit",
+        "p1": "Veel systemen, processen of procedures beschrijven alleen hoe werk gepland is. Ze gaan ervan uit dat alle risico's permanent zijn. Niets is minder waar... Daarom blijven kwaliteitsproblemen bestaan en ongelukken gebeuren.",
+        "p2": "Medewerkers vragen om aandachtiger te zijn en geen fouten te maken, leidt niet tot een betere kwaliteit. Net zoals werknemers vragen om meer voorzichtig te zijn niet zal vermijden dat er een ongeval gebeurt. ",
+        "p3": "Enkel focussen op uw medewerkers om betere kwaliteit te bereiken of minder incidenten te hebben, zal niet werken. Alleen vertrouwen op uw systeem al evenmin. Wat telt is de interactie tussen uw systeem én uw werknemers. Elke procedure is onvolledig en uw werknemers vervolledigen het systeem. Medewerkers balanceren constant tussen efficiënt werken en hun taak tot een goed einde brengen.",
+        "p4": "We observeren werk in uitvoering, hoe het werk in realiteit wordt uitgevoerd. We gaan in leermodus door de juiste vragen te stellen aan de juiste doelgroep. Dit stelt ons in staat om te detecteren waar uw systeem faalt.",
+        "p5": "Door de context te begrijpen van de werknemers die direct betrokken zijn bij kwaliteits- of veiligheidsproblemen, komen we tot eenvoudige verbeteringen die voornamelijk door het team zelf kunnen worden doorgevoerd. Op die manier kunnen we de prestaties en de veerkracht van uw managementsysteem met succes verbeteren."
+      }
+    },
+    "incidentanalysis": {
+      "content": {
+        "h2": "Onafhankelijke Expertise aan uw team toevoegen",
+        "quote": "Mislukkingen doen zich voor wanneer de middelen tekortschieten om aan de eisen te voldoen.",
+        "p1": "Het enige wat klassiek gebeurt wanneer er iets misgaat, is het \"defecte\" deel (lees \"de mens\") vinden en een cyclus starten van \"name, blame, shame and retrain\"... Hierdoor zou het je niet mogen verbazen dat sommige kleinere incidenten en de meeste bijna-ongevallen niet worden gemeld. Rapportering is functie van de hoeveelheid vertrouwen die uw werknemers in uw organisatie hebben. Medewerkers die bang zijn om gestraft te worden steken hun nek niet uit ...",
+        "p2": "In veel opzichten is het nuttig om beroep te doen op externe expertise bij het analyseren van ongewenste gebeurtenissen, zoals de beschikbaarheid van een fris paar ogen en oren of de aanwezigheid van een neutrale partij om er maar een paar te noemen.",
+        "p3": "Wanneer u ons vraagt om uw organisatie te ondersteunen bij het analyseren van een incident, gaan we actief op zoek naar het verhaal over 'hoe' alles is gebeurd. We zullen uitzoeken wat er \"fout\" ging, maar ook wat \"goed\" ging.",
+        "p4": "In onze atypische benadering zoeken we niet naar de basisoorzaak. Falen is nooit een lineaire opeenvolging van gebeurtenissen, dus is er bijna nooit een basisoorzaak. In plaats van het incident in opeenvolgende delen te ontbinden, brengen we de omstandigheden op het moment van het incident in kaart. We kijken niet naar de afzonderlijke delen van het incident, maar naar de relatie tussen die delen.",
+        "p5": "In veel incidentonderzoeken volstaat het om eenvoudigweg te beschrijven wat de omstandigheden zijn waarin werk onder normale omstandigheden plaatsvindt om uit te leggen hoe het incident is gebeurd. Met deze aanpak zullen we niet alleen problemen vinden die hebben bijgedragen tot het incident, we zullen ook andere domeinen kunnen identificeren waar verbeteringen mogelijk zijn, zodat het incidentonderzoek tegelijkertijd reactief en proactief wordt.",
+        "p6": "Ook de evaluatie van succesvol uitgevoerd werk is een uitstekende gelegenheid om van te leren. Dit kan gebeuren in een veel positiever klimaat. Deze kans wordt vaak onbenut door een organisatie. Bekijk ons gedeelte over ",
+        "a": "Learning Teams",
+        "p7": " om te ontdekken hoe we u kunnen helpen."
+      }
+    },
+    "bio": {
+      "content": {
+        "p1": "Werner DE VOS studeerde af als Burgerlijk Ingenieur Werktuigkunde-Elektrotechniek aan de VUB.",
+        "p2": "Vooraleer hij van start ging met COGITANDUS, heeft hij gedurende meer dan 25 jaar een brede ervaring opgedaan binnen de domeinen veiligheid, kwaliteit en milieu als manager op groepsniveau in diverse industrieën bij bedrijven die wereldwijd actief zijn.",
+        "p3": "Dat ging van het uittekenen van de strategie over het coachen van internationale teams bij de implementatie op de werkvloer tot het invoeren en auditen van ISO/OHSAS & VCA-managementsystemen en het realiseren van continue verbetering."
+      }
+    },
+    "contact": {
+      "content": {
+        "p1": "Getriggerd door onze aanpak? Wil je meer weten? Klaar voor een geweldig leerproces?",
+        "p2": "Neem contact met ons op en start een traject om de veiligheid en/of kwaliteit in uw organisatie verder duurzaam te verbeteren.",
+        "country": "België"
+      }
+    }
+  }
+}

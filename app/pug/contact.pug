@@ -1,16 +1,17 @@
 extends includes/layout.pug
 include partials/mixin-page.pug
 prepend head
-  - var title = "Contact us"
+  - var title = $i18n.nav.contact
 block content
   main
-    h1 Contact us
-    p Triggered by our approach? Interested in knowing more? Ready to do some great learning?
-    p Get in touch and contact us to embark on a journey to further improve safety and/or quality in your organisation.
+    h1 Contact
+    p #{$i18n.pages.contact.content.p1}
+    p #{$i18n.pages.contact.content.p2}
     br
-    h2 Cogitandus
+    br
+    h2 COGITANDUS
     p Werner De Vos
-    p Heidestraat 77, 2570 Duffel, Belgium
+    p Heidestraat 77, 2570 Duffel, #{$i18n.pages.contact.content.country}
     p +32 478 997 546
     p 
       a(href="mailto:info@cogitandus.com") info@cogitandus.com

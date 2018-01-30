@@ -1,13 +1,14 @@
 extends includes/layout.pug
 prepend head
-  - var title = "Home"
+  - var title = $i18n.nav.home
 append hero
-  img(src="images/hero.jpeg", alt="People standing in the shade").img-fluid
+  img(src="../images/hero.jpeg", alt="People standing in the shade").img-fluid
 block content
   .quote
     blockquote.blockquote.text-center
       p.mb-0
-        | I'm not interested in preserving the status quo; I want to overthrow it...
+        | #{$i18n.pages.home.content.quote}
       footer.blockquote-footer
-        | Niccolò Machiavelli  
+        | Niccolò Machiavelli 
+        cite 1469-1527
   include partials/home-cards.pug

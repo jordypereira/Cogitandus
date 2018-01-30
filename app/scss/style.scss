@@ -31,16 +31,38 @@ body{
     margin: 40px auto;
   }
   main{  
-    min-height: calc(100vh - 80px - 103px - 363px - 43px - 16px);
+    min-height: calc(100vh - 80px - 103px - 285px - 61px);
     padding: 20px;
     @media screen and (min-width: $lg){
       padding: 50px;
     }
   }
 }
+.site-title{
+  font-size: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  @media screen and (min-width: $md){
+    font-size: 40px;
+    font-size: 2rem;
+  }
+  @media screen and (min-width: $lg){
+    font-size: 50px;
+    font-size: 2.5rem;
+  }
+}
 .navbar-nav{
   flex-basis: 100%;
-  justify-content: space-around;
+  justify-content: flex-end;
+  .dropdown-menu {
+    font-size: inherit;
+  }
+  li:not(:last-child){
+    padding-right: 20px;
+  }
+}
+.lang-icon{
+  max-width: 24px;
 }
 .img-thumbnail{
   padding: 1rem;

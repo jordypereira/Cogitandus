@@ -16,24 +16,6 @@
       order: 1;
     }
   }
-  .site-title{
-		font-size: 30px;
-		font-size: 3rem;
-    line-height: 1.4;
-    text-shadow: 2px 2px #e6e6e6;
-    font-weight: bold;
-    @media screen and (min-width: $md){
-      font-size: 40px;
-      padding-top: 30px;
-      font-size: 4rem;
-      flex-basis: 100%;
-      order: 4;
-    }
-    @media screen and (min-width: $lg){
-      font-size: 50px;
-      font-size: 5rem;
-    }
-  }
   .site-description{
     font-size: 13px;
     text-align: center;

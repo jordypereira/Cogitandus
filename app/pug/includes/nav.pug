@@ -1,24 +1,37 @@
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
-  a(href="#").navbar-brand
+-var locale =  $localeName;
+nav.navbar.navbar-expand-sm.navbar-dark.bg-dark
+  a(href = "/" + locale + "/").navbar-brand.site-title Cogitandus
   button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation")
     span.navbar-toggler-icon
   #navbar.collapse.navbar-collapse
     ul.navbar-nav.mr-auto
-      li.nav-item.active
-        a.nav-link(href="/")
-          | Home 
-          span.sr-only (current)
-      li.nav-item
-        a.nav-link(href="/training.html") Training
-      li.nav-item
-        a.nav-link(href="/coaching.html") Coaching
-      li.nav-item
-        a.nav-link(href="/assessments.html") Assessments
-      li.nav-item
-        a.nav-link(href="/management-systems.html") Management Systems
-      li.nav-item
-        a.nav-link(href="/improvement-projects.html") Improvement Projects
-      li.nav-item
-        a.nav-link(href="/incident-analysis.html") Incident Analysis
-      li.nav-item
-        a.nav-link(href="/contact.html") Contact us
+      li.nav-item.dropdown
+        a#langDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          if locale == 'fr'
+            img(src="../images/france.png").lang-icon
+          else if locale == 'en'
+            img(src="../images/en.png").lang-icon
+          else
+            img(src="../images/nl.png").lang-icon
+        .dropdown-menu(aria-labelledby='langDropdown')
+          a.dropdown-item(href= "/nl") 
+            img(src="../images/nl.png").lang-icon 
+            |  Nederlands
+          a.dropdown-item(href= "/en") 
+            img(src="../images/en.png").lang-icon 
+            |  English
+          a.dropdown-item(href= "/fr") 
+            img(src="../images/france.png").lang-icon 
+            |  Française
+      li.nav-item.dropdown
+        a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          | #{$i18n.nav.services}
+        .dropdown-menu(aria-labelledby='navbarDropdown')
+          a.dropdown-item(href= "/" + locale + "/training.html") #{$i18n.nav.training}
+          a.dropdown-item(href= "/" + locale + "/coaching.html") #{$i18n.nav.coaching}
+          a.dropdown-item(href= "/" + locale + "/assessments.html") #{$i18n.nav.assessments}
+          a.dropdown-item(href= "/" + locale + "/management-systems.html") #{$i18n.nav.managementsystems}
+          a.dropdown-item(href= "/" + locale + "/improvement-projects.html") #{$i18n.nav.improvementprojects}
+          a.dropdown-item(href= "/" + locale + "/incident-analysis.html") #{$i18n.nav.incidentanalysis}
+          a.dropdown-item(href= "/" + locale + "/bio.html") Bio
+          a.dropdown-item(href= "/" + locale + "/contact.html") Contact

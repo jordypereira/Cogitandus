@@ -1,25 +1,25 @@
 extends includes/layout.pug
 include partials/mixin-page.pug
 prepend head
-  - var title = "Management Systems"
+  - var title = $i18n.nav.managementsystems
 block content
-  +page("Management Systems","images/management-systems.jpg","The controls of a plane","Photo by Chris Leipelt on Unsplash")
+  +page($i18n.nav.managementsystems,"../images/management-systems.jpg","The controls of a plane","Photo by Chris Leipelt on Unsplash")
     h2
-      em Development & Implementation
+      em #{$i18n.pages.managementsystems.content.h2}
     p
       em
-        | For many companies, obtaining ISO-certificates is a must. In most cases this is required by their customers. Without these certificates, the company will not be able to prequalify for doing some future business or it will not be allowed to tender for new projects or orders.
+        | #{$i18n.pages.managementsystems.content.p1}
     p
       em
-        | Apart from complying with this customer requirement, getting certified and maintaining the certificates later on, is often associated with lots of efforts without real added value.
+        | #{$i18n.pages.managementsystems.content.p2}
     p
       em
-        | The management system that is created is nothing more than a paper tiger, its philosophy is not lived on the shop floor and creates frustration with management and staff. Some weeks before every audit it is “all hands on deck” and the certificates is nothing more than a frame on the wall at the entrance…
+        | #{$i18n.pages.managementsystems.content.p3}
     p
-      | We are happy to guide and assist you in developing and implementing a management system that is of real benefit to your organization. A system that is simple to understand and easy to apply.
+      | #{$i18n.pages.managementsystems.content.p4}
     p
-      | In this process we focus maximally on how work is done, rather than on how it is planned. To get there, we make use of the knowledge and expertise of your engaged employees.
+      | #{$i18n.pages.managementsystems.content.p5}
     p
-      | By letting us create a management system with the buy-in of your employees, quality and safety will become values in your organisation, not priorities… And passing the audits? That will no longer be an end in itself, but a natural consequence of all efforts made.
+      | #{$i18n.pages.managementsystems.content.p6}
     br
     hr

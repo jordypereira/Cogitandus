@@ -6,6 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const connect = require('gulp-connect');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
+var pugI18n = require('gulp-i18n-pug');
  
 gulp.task('connect', function() {
   connect.server({
@@ -18,6 +19,12 @@ gulp.task('html', function(){
     .pipe(pug())
     .pipe(gulp.dest('build/'))
     .pipe(connect.reload())
+});
+
+gulp.task('index', function(){
+  return gulp.src('app/index.pug')
+    .pipe(pug())
+    .pipe(gulp.dest('build/'))
 });
 
 gulp.task('css', function(){
@@ -42,12 +49,26 @@ gulp.task('js', () =>
   .pipe(gulp.dest('build/js'))
 );
 
+gulp.task('pugi18n', function () {
+  var options = {
+    i18n: {
+      dest: 'build',
+      locales: 'app/locales/*.*'
+    },
+    pretty: true
+  };
+  return gulp.src('app/pug/*.pug')
+    .pipe(pugI18n(options))
+    .pipe(gulp.dest(options.i18n.dest))
+    .pipe(connect.reload());
+});
+
 gulp.task('watch', function () {
-  gulp.watch(['./app/pug/*.pug'], ['html']);
-  gulp.watch(['./app/pug/*/*.pug'], ['html']);
+  gulp.watch(['./app/pug/*.pug'], ['pugi18n']);
+  gulp.watch(['./app/pug/*/*.pug'], ['pugi18n']);
   gulp.watch(['./app/scss/*.scss'], ['css']);
   gulp.watch(['./app/scss/*/*.scss'], ['css']);
   gulp.watch(['./app/js/**/*'], ['js']);
 });
 
-gulp.task('default', [ 'html', 'css', 'js', 'connect', 'watch']);
+gulp.task('default', [ 'pugi18n', 'css', 'js', 'connect', 'watch']);

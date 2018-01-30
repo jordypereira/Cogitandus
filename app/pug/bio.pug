@@ -1,0 +1,14 @@
+extends includes/layout.pug
+include partials/mixin-page.pug
+prepend head
+  - var title = $i18n.nav.bio
+block content
+  main
+    .row
+      .col-sm-4
+        img(src="../images/bio.jpg").img-fluid
+      .col
+        h1 Bio
+        p #{$i18n.pages.bio.content.p1}
+        p #{$i18n.pages.bio.content.p2}
+        p #{$i18n.pages.bio.content.p3}

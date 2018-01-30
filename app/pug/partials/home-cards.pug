@@ -1,15 +1,16 @@
 include mixin-cards.pug
+-var locale =  $localeName;
 .cards
-      +card("images/training.jpg", "Man spreading his arms in the sunrise", "", "Training")
-        p.card-text For many years we have tried to make workers “care more” and “pay more attention” to what they are doing so they won’t make mistakes. It seems that we have run that course about as far as it will go. Simply asking workers to be more careful does not equate to “more careful” workers…
-      +card("images/coaching.jpg", "5 hands doing a fistbump", "", "Coaching")
-        p.card-text Does every job or task in your organization runs exactly as planned? Did you ever try to learn from the incident that never happened? If the answer to these questions is ‘no’, then a Learning Team is what you are looking for to make real change happen!
-      +card("images/assessments.jpg", "glasses upside down on a table", "", "Assessments")
-        p.card-text Most systems, processes and procedures solely describe how work is planned… ‘Work the plan’ is saying it is always a perfect job. Avoiding failure is setting the standard to reach perfection, but workers are humans and these are not able to achieve the perfect result...
-      +card("images/management-systems.jpg", "The controls of a plane", "", "Management Systems")
-        p.card-text For many companies, obtaining ISO-certificates is a must. Without these certificates, no business... Apart from complying, getting certified has no real added value. The management system philosophy is not lived and creates frustration with management and staff. Some weeks before every audit it is “all hands on deck” and the certificate is nothing more than a frame on the wall at the entrance…
-      +card("images/improvement-projects.jpg", "The inside of a tube", "", "Improvement Projects")
-        p.card-text A lot of systems, processes or procedures solely describe how work is planned. They assume that all risks are permanent. Nothing could be further from the truth… That is why quality defects continue to exist and accidents to happen. Asking employees to be more careful not to make mistakes does not lead to better quality. Just like asking employees to pay more attention will not avoid having an accident...
-      +card("images/incident-analysis.jpg", "post-its on a wall", "", "Incident Analysis")
-        p.card-text Traditionally, when something goes wrong, all that is necessary is to find the “defective” part (read “the human”) and begin a cycle of name, blame, shame and retrain… By doing so, you shouldn’t be surprised that some smaller incidents and many near misses don’t get reported. Reporting is a function of how much your workers trust your organisation. Employees who fear to get punished will not stick their neck out...
+      +card("../images/training.jpg", "Man spreading his arms in the sunrise", "/" + locale + "/training.html", "Training")
+        p.card-text #{$i18n.cards.text.training}
+      +card("../images/coaching.jpg", "5 hands doing a fistbump", "/" + locale + "/coaching.html", "Coaching")
+        p.card-text #{$i18n.cards.text.coaching}
+      +card("../images/assessments.jpg", "glasses upside down on a table", "/" + locale + "/assessments.html", "Assessments")
+        p.card-text #{$i18n.cards.text.assessments}
+      +card("../images/management-systems.jpg", "The controls of a plane", "/" + locale + "/management-systems.html", "Management Systems")
+        p.card-text #{$i18n.cards.text.managementsystems}
+      +card("../images/improvement-projects.jpg", "The inside of a tube", "/" + locale + "/improvement-projects.html", "Improvement Projects")
+        p.card-text #{$i18n.cards.text.improvementprojects}
+      +card("../images/incident-analysis.jpg", "post-its on a wall", "/" + locale + "/incident-analysis.html", "Incident Analysis")
+        p.card-text #{$i18n.cards.text.incidentanalysis}
 

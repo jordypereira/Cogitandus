@@ -1,26 +1,32 @@
 extends includes/layout.pug
 include partials/mixin-page.pug
 prepend head
-  - var title = "Incident Analysis"
+  - var title = $i18n.nav.incidentanalysis
 block content
-  +page("Incident Analysis","images/incident-analysis.jpg","post-its on a wall","Photo by Dan Schiumarini on Unsplash")
+  -var locale =  $localeName;
+  +page("Incident Analysis","../images/incident-analysis.jpg","post-its on a wall","Photo by Dan Schiumarini on Unsplash")
     h2
-      em Adding Independent Expertise to your team
+      em #{$i18n.pages.incidentanalysis.content.h2}
+    .quote-small
+      blockquote.blockquote.text-center
+        p.mb-0
+          | #{$i18n.pages.incidentanalysis.content.quote}
+        footer.blockquote-footer
+          | D. Hummerdal
     p
       em
-        | Traditionally, when something goes wrong, all that is necessary is to find the “defective” part (read “the human”) and begin a cycle of name, blame, shame and retrain…  By doing so, you shouldn’t be surprised that some smaller incidents and many near misses don’t get reported. Reporting is a function of how much your workers trust your organisation. Employees who fear to get punished will not stick their neck out…
+        | #{$i18n.pages.incidentanalysis.content.p1}
     p
-      | In many aspects, it is beneficial to call in some external expertise when looking into failure, like the availability of a fresh pair of eyes and ears and the presence of an unbiased party to name a few.
+      | #{$i18n.pages.incidentanalysis.content.p2}
     p
-      | When asking us to assist your organization in analyzing an incident, we will actively look for the story of “how” the failure happened. We will find out what went “wrong” but also what went “right”.
+      | #{$i18n.pages.incidentanalysis.content.p3}
     p
-      | In our atypical approach, we don’t look for the root cause. As failure is never a linear sequence of events, so there is almost never a root cause. Instead of linearly deconstructing the incident, we construct the incident context. We won’t look at the individual pieces of the incident, but at the relationship between those pieces.
+      | #{$i18n.pages.incidentanalysis.content.p4}
     p
-      | In many incident investigations, simply describing what the conditions are in which normal work happens is sufficient to explain how the incident happened. We will not only find issues that contributed to the incident with this approach, we will also identify other areas where improvements can be made, so the incident investigation becomes reactive and proactive at the same time.
+      | #{$i18n.pages.incidentanalysis.content.p5}
     p
-      | Also post-job reviews after operational success are an excellent opportunity to learn from. This can happen in a much more positive climate. That chance is often missed or wasted by an organization. Check our section on 
-      a(href='http://www.cogitandus.com/coaching')
-        u Learning Teams
-      |  to find out how we can help you.
+      | #{$i18n.pages.incidentanalysis.content.p6}
+      a(href= "/" + locale + "/coaching.html") #{$i18n.pages.incidentanalysis.content.a}
+      | #{$i18n.pages.incidentanalysis.content.p7}
     br
     hr
