@@ -1,7 +1,7 @@
 mixin page(title,src,alt,fig)
   main
-    h1=title
+    h1!=title
     figure.figure
-      img(src=src,alt=alt).figure-img.img-fluid.img-thumbnail
-      figcaption.figure-caption.text-center=fig
+      img(src!=src,alt!=alt).figure-img.img-fluid.img-thumbnail
+      figcaption.figure-caption.text-center!=fig
     block

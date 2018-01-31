@@ -1,10 +1,10 @@
 -var locale =  $localeName;
-nav.navbar.navbar-expand-sm.navbar-dark.bg-dark
+nav.navbar.navbar-expand-md.navbar-dark.bg-dark
   a(href = "/" + locale + "/").navbar-brand.site-title Cogitandus
   button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation")
     span.navbar-toggler-icon
   #navbar.collapse.navbar-collapse
-    ul.navbar-nav.mr-auto
+    ul.navbar-nav
       li.nav-item.dropdown
         a#langDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
           if locale == 'fr'
@@ -33,5 +33,7 @@ nav.navbar.navbar-expand-sm.navbar-dark.bg-dark
           a.dropdown-item(href= "/" + locale + "/management-systems.html") !{$i18n.nav.managementsystems}
           a.dropdown-item(href= "/" + locale + "/improvement-projects.html") !{$i18n.nav.improvementprojects}
           a.dropdown-item(href= "/" + locale + "/incident-analysis.html") !{$i18n.nav.incidentanalysis}
-          a.dropdown-item(href= "/" + locale + "/bio.html") Bio
-          a.dropdown-item(href= "/" + locale + "/contact.html") Contact
+      li.nav-link
+        a.nav-link(href= "/" + locale + "/bio.html") Bio
+      li.nav-link
+        a.nav-link(href= "/" + locale + "/contact.html") Contact
