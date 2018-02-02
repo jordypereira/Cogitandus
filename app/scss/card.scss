@@ -1,6 +1,7 @@
 @import "variables.scss";
 
 .cards{
+  max-width: 1140px;
   padding: 20px 0.50rem 0 0.50rem;    
   display: flex;
   flex-flow: row wrap;
@@ -9,12 +10,17 @@
     padding: 50px 0.50rem 0 0.50rem;    
   }
   .card{
+    flex: 1 1 auto;
     width: 85vw;
+    min-width: 85vw;
+    max-width: 85vw;
     padding-bottom: 5px;
     margin: 0 0.75rem;
     border: none;
     @media screen and (min-width: $md){
-      width: 300px;      
+      width: 300px;
+      min-width: 300px;
+      max-width: 300px;
       padding-bottom: 50px;
     }
     .card-img-top{

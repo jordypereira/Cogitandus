@@ -2,11 +2,12 @@ var gulp = require('gulp');
 var pug = require('gulp-pug');
 var sass = require('gulp-sass');
 const imagemin = require('gulp-imagemin');
-const autoprefixer = require('gulp-autoprefixer');
 const connect = require('gulp-connect');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
+var postcss = require('gulp-postcss');
 var pugI18n = require('gulp-i18n-pug');
+var autoprefixer = require('autoprefixer');
  
 gulp.task('connect', function() {
   connect.server({
@@ -29,11 +30,8 @@ gulp.task('index', function(){
 
 gulp.task('css', function(){
   return gulp.src('app/scss/style.scss')
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions'],
-      cascade: false
-    }))
+    .pipe(sass())
+    .pipe(postcss([ autoprefixer() ]))
     .pipe(gulp.dest('build/css'))
     .pipe(connect.reload())
 });

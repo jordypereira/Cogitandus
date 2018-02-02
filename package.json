@@ -10,15 +10,17 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
     "gulp-connect": "^5.2.0",
-    "gulp-imagemin": "^4.1.0"
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1"
   },
   "dependencies": {
+    "autoprefixer": "^7.2.5",
     "gulp-concat": "^2.6.1",
     "gulp-i18n-pug": "^1.0.2",
     "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0"
-  }
+  },
+  "browserslist": "> 5%, last 3 versions, Firefox >= 20, iOS >=7"
 }

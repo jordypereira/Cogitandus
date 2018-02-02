@@ -2,7 +2,7 @@
 .hero-block{
   color: $blue;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   @media screen and (min-width: $md){
     padding: 50px;
     flex-flow: row wrap;
