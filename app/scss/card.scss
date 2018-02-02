@@ -4,13 +4,17 @@
   max-width: 1140px;
   padding: 20px 0.50rem 0 0.50rem;    
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   @media screen and (min-width: $md){
     padding: 50px 0.50rem 0 0.50rem;    
   }
   .card{
-    flex: 1 1 auto;
+    flex-basis: 90%;
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
     width: 85vw;
     min-width: 85vw;
     max-width: 85vw;
@@ -21,6 +25,7 @@
       width: 300px;
       min-width: 300px;
       max-width: 300px;
+      flex-basis: 30%;
       padding-bottom: 50px;
     }
     .card-img-top{

@@ -8,6 +8,7 @@ const concat = require('gulp-concat');
 var postcss = require('gulp-postcss');
 var pugI18n = require('gulp-i18n-pug');
 var autoprefixer = require('autoprefixer');
+var cssnano = require('cssnano');
  
 gulp.task('connect', function() {
   connect.server({
@@ -30,8 +31,8 @@ gulp.task('index', function(){
 
 gulp.task('css', function(){
   return gulp.src('app/scss/style.scss')
-    .pipe(sass())
-    .pipe(postcss([ autoprefixer() ]))
+    .pipe(sass().on('error', sass.logError))
+    .pipe(postcss([ autoprefixer(), cssnano() ]))
     .pipe(gulp.dest('build/css'))
     .pipe(connect.reload())
 });
@@ -53,7 +54,7 @@ gulp.task('pugi18n', function () {
       dest: 'build',
       locales: 'app/locales/*.*'
     },
-    pretty: true
+    pretty: false
   };
   return gulp.src('app/pug/*.pug')
     .pipe(pugI18n(options))
