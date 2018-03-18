@@ -12,46 +12,46 @@ var cssnano = require('cssnano');
  
 gulp.task('connect', function() {
   connect.server({
-    root: 'build',
+    root: 'docs',
     livereload: true
   });
 });
 gulp.task('html', function(){
   return gulp.src('app/pug/*.pug')
     .pipe(pug())
-    .pipe(gulp.dest('build/'))
+    .pipe(gulp.dest('docs/'))
     .pipe(connect.reload())
 });
 
 gulp.task('index', function(){
   return gulp.src('app/index.pug')
     .pipe(pug())
-    .pipe(gulp.dest('build/'))
+    .pipe(gulp.dest('docs/'))
 });
 
 gulp.task('css', function(){
   return gulp.src('app/scss/style.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([ autoprefixer(), cssnano() ]))
-    .pipe(gulp.dest('build/css'))
+    .pipe(gulp.dest('docs/css'))
     .pipe(connect.reload())
 });
 gulp.task('imagemin', () =>
     gulp.src('app/images/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('build/images'))
+        .pipe(gulp.dest('docs/images'))
 );
 gulp.task('js', () =>
   gulp.src('app/js/**/*')
   .pipe(concat('main.js'))
   .pipe(uglify())
-  .pipe(gulp.dest('build/js'))
+  .pipe(gulp.dest('docs/js'))
 );
 
 gulp.task('pugi18n', function () {
   var options = {
     i18n: {
-      dest: 'build',
+      dest: 'docs',
       locales: 'app/locales/*.*'
     },
     pretty: false
