@@ -1,5 +1,5 @@
 {
-  "metatags":{
+  "metatags": {
     "description": "Comment obtenir une vraie Am&#233;lioration Continue dans des Organisations en utilisant l'Apprentissage Op&#233;rationnelle",
     "keywords": "am&eacute;liorer, am&eacute;lioration, changement, proc&eacute;dure, apprendre, apprentissage, atelier, workshop, formation, coaching, &eacute;valuation, audit, syst&egrave;me de management, syst&egrave;me, projet, incident, accident, analyse, s&eacute;curit&eacute;, qualit&eacute;, environnement, performance humaine, iso, ohsas, vca"
   },
@@ -7,7 +7,7 @@
     "title": "Cogitandus",
     "description": "Comment obtenir une vraie Am&#233;lioration Continue dans des Organisations en utilisant l'Apprentissage Op&#233;rationnelle"
   },
-  "nav":{
+  "nav": {
     "services": "Nos Services",
     "home": "Home",
     "training": "Formation",
@@ -113,6 +113,35 @@
         "p1": "Incit&#233; par notre approche ? Int&#233;ress&#233; &#224; en savoir plus ? Pr&#234;t &#224; faire un superbe apprentissage ?",
         "p2": "Contactez-nous et embarquez pour un voyage qui am&#232;ne &#224; l'am&#233;lioration durable de la s&#233;curit&#233; et / ou de la qualit&#233; de votre organisation.",
         "country": "Belgique"
+      }
+    },
+    "workshop": {
+      "content": {
+        "title": "Inschrijvingsformulier",
+        "subtitle": "Workshop 'Een andere kijk op veiligheid'",
+        "date": "18 & 19 februari 2019",
+        "location": "3 Square - Rijvisschestraat 124 - 9052 Gent-Zwijnaarde",
+        "location-extra": "(gratis parking onder het gebouw)",
+        "mandatory-information": "(*) verplichte gegevens",
+        "personal": {
+          "title": "Persoonlijke gegevens",
+          "surname": "Naam*",
+          "name": "Voornaam*",
+          "company": "Bedrijf*",
+          "function": "Functie",
+          "email": "E-mail*",
+          "phone": "Telefoonnummer*",
+          "mobile": "GSM-nummer"
+        },
+        "billing": {
+          "title": "Facturatiegegevens",
+          "number": "Bestelbonnummer",
+          "company": "Bedrijf*",
+          "street": "Straat*",
+          "zip": "Postcode*",
+          "city": "Gemeente*",
+          "btw": "BTW-nummer*"
+        }
       }
     }
   }

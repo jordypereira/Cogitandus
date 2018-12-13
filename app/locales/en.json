@@ -1,5 +1,5 @@
 {
-  "metatags":{
+  "metatags": {
     "description": "How to Continually Improve Organisations based on Operational Learning",
     "keywords": "improve, improvement, change, procedure, learning, workshop, training, coaching, assessment, audit, management system, system, project, incident, accident, analysis, safety, quality, environment, human performance, iso, ohsas, vca"
   },
@@ -7,7 +7,7 @@
     "title": "Cogitandus",
     "description": "How to Continually Improve Organisations based on Operational Learning"
   },
-  "nav":{
+  "nav": {
     "services": "Our Services",
     "home": "Home",
     "training": "Training",
@@ -113,6 +113,35 @@
         "p1": "Triggered by our approach? Interested in knowing more? Ready to do some great learning?",
         "p2": "Get in touch and contact us to embark on a journey to further improve safety and/or quality in your organisation.",
         "country": "Belgium"
+      }
+    },
+    "workshop": {
+      "content": {
+        "title": "Inschrijvingsformulier",
+        "subtitle": "Workshop 'Een andere kijk op veiligheid'",
+        "date": "18 & 19 februari 2019",
+        "location": "3 Square - Rijvisschestraat 124 - 9052 Gent-Zwijnaarde",
+        "location-extra": "(gratis parking onder het gebouw)",
+        "mandatory-information": "(*) verplichte gegevens",
+        "personal": {
+          "title": "Persoonlijke gegevens",
+          "surname": "Naam*",
+          "name": "Voornaam*",
+          "company": "Bedrijf*",
+          "function": "Functie",
+          "email": "E-mail*",
+          "phone": "Telefoonnummer*",
+          "mobile": "GSM-nummer"
+        },
+        "billing": {
+          "title": "Facturatiegegevens",
+          "number": "Bestelbonnummer",
+          "company": "Bedrijf*",
+          "street": "Straat*",
+          "zip": "Postcode*",
+          "city": "Gemeente*",
+          "btw": "BTW-nummer*"
+        }
       }
     }
   }

@@ -1,5 +1,5 @@
 {
-  "metatags":{
+  "metatags": {
     "description": "Hoe &#233;cht Continu Verbeteren in Organisaties door Operationeel te Leren",
     "keywords": "verbeteren, verbetering, change, verandering, procedure, leren, workshop, training, opleiding, coaching, assessment, audit, managementsysteem, systeem, project, incident, ongeval, analyse, veiligheid, kwaliteit, milieu, human performance, iso, ohsas, vca"
   },
@@ -7,7 +7,7 @@
     "title": "Cogitandus",
     "description": "Hoe &#233;cht Continu Verbeteren in Organisaties door Operationeel te Leren"
   },
-  "nav":{
+  "nav": {
     "services": "Onze Diensten",
     "home": "Home",
     "training": "Opleiding",
@@ -15,7 +15,8 @@
     "assessments": "Assessments",
     "managementsystems": "Managementsystemen",
     "improvementprojects": "Verbeterprojecten",
-    "incidentanalysis": "Incidentanalyse"
+    "incidentanalysis": "Incidentanalyse",
+    "workshop": "Workshop - 'Een andere kijk op veiligheid'"
   },
   "cards": {
     "text": {
@@ -113,6 +114,36 @@
         "p1": "Getriggerd door onze aanpak? Wil je meer weten? Klaar voor een geweldig leerproces?",
         "p2": "Neem contact met ons op en start een traject om de veiligheid en/of kwaliteit in uw organisatie verder duurzaam te verbeteren.",
         "country": "Belgi&#235;"
+      }
+    },
+    "workshop": {
+      "content": {
+        "title": "Inschrijvingsformulier",
+        "subtitle": "Workshop 'Een andere kijk op veiligheid'",
+        "date": "18 & 19 februari 2019",
+        "location": "3 Square - Rijvisschestraat 124 - 9052 Gent-Zwijnaarde",
+        "location-extra": "(gratis parking onder het gebouw)",
+        "mandatory-information": "(*) verplichte gegevens",
+        "personal": {
+          "title": "Persoonlijke gegevens",
+          "surname": "Naam*",
+          "name": "Voornaam*",
+          "company": "Bedrijf*",
+          "function": "Functie",
+          "email": "E-mail*",
+          "phone": "Telefoonnummer*",
+          "mobile": "GSM-nummer"
+        },
+        "billing": {
+          "title": "Facturatiegegevens",
+          "number": "Bestelbonnummer",
+          "company": "Bedrijf*",
+          "street": "Straat*",
+          "zip": "Postcode*",
+          "city": "Gemeente*",
+          "btw": "BTW-nummer*",
+          "btwGuilty": "niet BTW-plichtig"
+        }
       }
     }
   }
