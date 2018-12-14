@@ -4,6 +4,9 @@ prepend head
   - var title = $i18n.nav.workshop
 block content
   -var locale =  $localeName;
+  .row
+    .col-12
+      .alert.alert-success.fixed-top#contact__msg(style="display: none", role="alert") Your message was sent successfully.
   .m-5
     h2.mb-3 !{$i18n.pages.workshop.content.title.toUpperCase()}
     h3.mb-5 !{$i18n.pages.workshop.content.subtitle}
@@ -14,7 +17,7 @@ block content
       img(src="../images/location.jpg").icon.mr-3 
       span !{$i18n.pages.workshop.content.location}
       span.subtext.ml-2 !{$i18n.pages.workshop.content['location-extra']}
-    form(action="")#workshopForm.mt-5
+    form(action="../php/submitWorkshop.php", method="POST")#workshopForm.mt-5
       .row
         .col-md-6
           h2 !{$i18n.pages.workshop.content.personal.title.toUpperCase()}
@@ -22,33 +25,33 @@ block content
             .col-12
               label(for="surname") !{$i18n.pages.workshop.content.personal.surname} 
             .col-12
-              input#surname(type="text", name="surname")
-          .row          
+              input#surname(type="text", name="surname", required)
+          .row
             .col-12
               label(for="name") !{$i18n.pages.workshop.content.personal.name} 
             .col-12
-              input#name(type="text", name="name")
-          .row          
+              input#name(type="text", name="name", required)
+          .row
             .col-12
               label(for="company") !{$i18n.pages.workshop.content.personal.company} 
             .col-12
-              input#company(type="text", name="company")
-          .row          
+              input#company(type="text", name="company", required)
+          .row
             .col-12
               label(for="function") !{$i18n.pages.workshop.content.personal.function} 
             .col-12
               input#function(type="text", name="function")
-          .row          
+          .row
             .col-12
               label(for="email") !{$i18n.pages.workshop.content.personal.email} 
             .col-12
-              input#email(type="text", name="email")
-          .row          
+              input#email(type="email", name="email", required)
+          .row
             .col-12
               label(for="phone") !{$i18n.pages.workshop.content.personal.phone} 
             .col-12
-              input#phone(type="text", name="phone")
-          .row          
+              input#phone(type="text", name="phone", required)
+          .row  
             .col-12
               label(for="mobile") !{$i18n.pages.workshop.content.personal.mobile} 
             .col-12
@@ -60,36 +63,46 @@ block content
               label(for="number") !{$i18n.pages.workshop.content.billing.number} 
             .col-12
               input#number(type="text", name="number")
-          .row          
+          .row
             .col-12
-              label(for="company") !{$i18n.pages.workshop.content.billing.company} 
+              label(for="companyname") !{$i18n.pages.workshop.content.billing.company} 
             .col-12
-              input#company(type="text", name="company")
-          .row          
+              input#companyname(type="text", name="companyname", required)
+          .row
             .col-12
               label(for="street") !{$i18n.pages.workshop.content.billing.street} 
             .col-12
-              input#street(type="text", name="street")
-          .row          
+              input#street(type="text", name="street", required)
+          .row
             .col-12
               label(for="zip") !{$i18n.pages.workshop.content.billing.zip} 
             .col-12
-              input#zip(type="text", name="zip")
-          .row          
+              input#zip(type="text", name="zip", required)
+          .row
             .col-12
               label(for="city") !{$i18n.pages.workshop.content.billing.city} 
             .col-12
-              input#city(type="text", name="city")
-          .row          
+              input#city(type="text", name="city", required)
+          .row
             .col-12
               label(for="btw") !{$i18n.pages.workshop.content.billing.btw} 
             .col-12
-              input#btw(type="text", name="btw")
-          .row          
-            .col-4
+              input#btw(type="text", name="btw", required)
+          .row
+            .col-1.ml-4.mt-2
               input#btwGuilty(type="checkbox", name="btwGuilty").form-check-input
             .col-8
-              label(for="btwGuilty") !{$i18n.pages.workshop.content.billing.btwGuilty} 
+              label(for="btwGuilty").float-left !{$i18n.pages.workshop.content.billing.btwGuilty} 
+      .row
+        .col-12.col-sm-4
+          p !{$i18n.pages.workshop.content.mandatoryInformation} 
+      .row
+        .col-12.d-flex.justify-content-center
+          button.btn.btn-warning.btn-xl(type='submit') VERZENDEN
+    .row 
+      .col-12
+        p !{$i18n.pages.workshop.content.privacyAgreement}
+          a(href="mailto:info@cogitandus.com") info@cogitandus.com
       
     br
     hr

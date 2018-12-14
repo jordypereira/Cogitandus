@@ -119,11 +119,12 @@
     "workshop": {
       "content": {
         "title": "Inschrijvingsformulier",
-        "subtitle": "Workshop 'Een andere kijk op veiligheid'",
+        "subtitle": "Workshop 'Een <em>andere</em> kijk op veiligheid'",
         "date": "18 & 19 februari 2019",
         "location": "3 Square - Rijvisschestraat 124 - 9052 Gent-Zwijnaarde",
         "location-extra": "(gratis parking onder het gebouw)",
-        "mandatory-information": "(*) verplichte gegevens",
+        "mandatoryInformation": "(*) verplichte gegevens",
+        "privacyAgreement": "<p>ANNULATIE<br /><br />Door COGITANDUS<br />Indien er minder dan 4 deelnemers inschrijven voor deze workshop, kan deze om praktische redenen niet doorgaan en wordt zij geannuleerd. In dat geval wordt u vooraf verwittigd en betaalt COGITANDUS de deelnamekost integraal terug.<br /><br />Door uzelf<br />Er kunnen zich altijd gebeurtenissen voordoen waardoor u moet annuleren&#8230; Indien COGITANDUS uw schriftelijke annulatie meer dan 4 weken voor de aanvang van de workshop ontvangt, is enkel een annulatiekost van 50 &euro; + 21% BTW verschuldigd. Bij annulatie op minder dan 4 weken voor aanvang van de workshop is de volledige deelnamekost verschuldigd. U mag uiteraard altijd uw collega in uw plaats laten deelnemen aan de workshop.</p><br /><p>GEGEVENSBESCHERMING<br /><br />De persoonlijke gegevens die u via dit inschrijvingsformulier verstrekt worden door COGITANDUS verzameld voor intern gebruik. In geen enkel geval zullen uw gegevens aan derden verstrekt worden zonder uw uitdrukkelijke toestemming.<br /><br />U hebt ten allen tijde toegang tot uw gegevens in onze database om deze te wijzigen of te wissen door contact op te nemen met COGITANDUS &ndash; Heidestraat 77 &ndash; 2570 Dufel &ndash; BELGIE<br /></p>",
         "personal": {
           "title": "Persoonlijke gegevens",
           "surname": "Naam*",

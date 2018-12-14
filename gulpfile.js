@@ -44,8 +44,13 @@ gulp.task('imagemin', () =>
 gulp.task('js', () =>
   gulp.src('app/js/**/*')
   .pipe(concat('main.js'))
-  .pipe(uglify())
+  // .pipe(uglify())
   .pipe(gulp.dest('docs/js'))
+);
+
+gulp.task('php', () =>
+  gulp.src('app/php/**/*')
+  .pipe(gulp.dest('docs/php'))
 );
 
 gulp.task('pugi18n', function () {
@@ -68,6 +73,7 @@ gulp.task('watch', function () {
   gulp.watch(['./app/scss/*.scss'], ['css']);
   gulp.watch(['./app/scss/*/*.scss'], ['css']);
   gulp.watch(['./app/js/**/*'], ['js']);
+  gulp.watch(['./app/php/**/*'], ['php']);
 });
 
-gulp.task('default', [ 'pugi18n', 'css', 'js', 'connect', 'watch']);
+gulp.task('default', [ 'php', 'pugi18n', 'css', 'js', 'connect', 'watch']);
