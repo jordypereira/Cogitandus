@@ -15,7 +15,10 @@
     "assessments": "Assessments",
     "managementsystems": "Management Systems",
     "improvementprojects": "Improvement Projects",
-    "incidentanalysis": "Incident Analysis"
+    "incidentanalysis": "Incident Analysis",
+    "contact": "Contact",
+    "Bio": "Bio",
+    "workshop": "Workshop - 'Een andere kijk op veiligheid'"
   },
   "cards": {
     "text": {
