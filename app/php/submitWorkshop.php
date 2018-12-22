@@ -2,7 +2,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $mail_to = "tester@cogitandus.com";
+    $mail_to = "info@cogitandus.com";
 
     # Sender Data
     $subject = 'Workshop website formulier';
