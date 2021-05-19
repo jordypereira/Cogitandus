@@ -1,5 +1,6 @@
 # Cogitandus, a consulting website
 >27 Jan 2018
+>cogitandus.com/
 
 Simple static 6 pages website, in 3 languages.
 
